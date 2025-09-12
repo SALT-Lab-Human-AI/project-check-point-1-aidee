@@ -1,4 +1,9 @@
-# Citations to relevant research papers
+================
+Research Papers Citations
+================
+
+Here are BibTeX citations of the relevant research papers that we found:
+=============
 
 1. @misc{raul2025ragprismpersonalizedrapidimmersive,
 
