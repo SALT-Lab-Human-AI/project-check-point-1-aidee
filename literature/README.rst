@@ -1,4 +1,4 @@
-Citations to relevant research papers
+# Citations to relevant research papers
 
 1. @misc{raul2025ragprismpersonalizedrapidimmersive,
 
