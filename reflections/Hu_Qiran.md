@@ -80,7 +80,7 @@ First, the fine tuning with explanatory data actually degraded model performance
 
 Second, the research demonstrates that reasoning focused models specifically excel at hallucination detection. The o3 Pro model achieved the highest hallucination detection accuracy, with an accuracy of 83.7% on zero shot and an accuracy of 86.0% on few shot, among all tested models, which shows that the chain of thought reasoning improves hallucination identification. This specialization demonstrates that different architectural strengths may be better suited for different aspects of feedback evaluation, which leads to potential ensemble approaches.
 
-Third, the lack of correlation between model size and feedback quality challenges assumptions about LLM capabilities. While GP -4.1 Nano produced significantly more hallucinations with an 11% detection rate, mid sized models performed comparably to larger ones in overall feedback quality; the differences ranged from 1% to 1.6% between best and worst performances.
+Third, the lack of correlation between model size and feedback quality challenges the assumptions about LLM capabilities. While GPT 4.1 Nano produced significantly more hallucinations with an 11% detection rate, mid sized models performed comparably to larger ones in overall feedback quality; the differences ranged from 1% to 1.6% between best and worst performances.
 
 ### Two Limitations and Risks
 
