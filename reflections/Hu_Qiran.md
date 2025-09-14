@@ -28,7 +28,7 @@
 
 The paper addresses the critical challenge of employees struggling to meet future industry needs in the rapid digital transformation, where traditional online programs often fail to provide personalized learning for diverse learners with varying backgrounds and expertise levels. The authors propose RAG PRISM, which is an adaptive tutoring framework that combines sentiment analysis from VR based Digital Twin learning environments with Retrieval Augmented Generation to deliver personalized instruction based on both emotional and cognitive states. The framework uses LlamaIndex for document retrieval and various GPT models for response generation. With evaluation metrics focusing on faithfulness and relevancy, this framework ensures that responses are consistent with retrieved content and address the actual query. Their evaluation demonstrates that GPT 4 achieved perfect faithfulness scores of 1.0 and high relevancy of 0.87. However, with their retrieval system, it achieves a perfect hit rate and Mean Reciprocal Rank scores of 1.0, which indicates the framework's capability to deliver accurate response.
 
-### Three Key Insights
+### Key Insights
 
 The integration of sentiment analysis with RAG represents a significant advancement in adaptive learning systems as the framework monitors both what students know and how they feel during the learning process. Hence, the system can adjust content delivery based on emotional indicators like frustration or engagement. Compared to traditional AI systems that only focus on providing answers, this new approach fosters a greater sense of connection for students throughout their learning process.
 
@@ -36,13 +36,13 @@ The evaluation method in this paper uses both synthetic and manual queries to pr
 
 As the response length inversely correlates with quality, it challenges common assumptions about AI tutoring. GPT 4 Turbo produced the longest responses with a lower relevancy of 0.60 compared to GPT 4's more concise and highly relevant responses of 0.87. Thus, this suggests that verbosity can actually harm educational effectiveness by introducing drift from the core query intent.
 
-### Two Limitations and Risks
+### Critical Limitations and Risks
 
 The most significant limitation is that it lacks real world validation with actual students. The system was evaluated entirely on synthetic queries and curated manual questions with no measurement of actual learning outcomes, knowledge retention, or student performance improvements. Without evidence from real educational settings, the framework's effectiveness remains theoretical.
 
 Another critical risk involves the system's dependency on the quality of its document corpus. The framework's high faithfulness scores demonstrate that it will accurately reproduce whatever is in its knowledge base, which includes any errors, biases, or outdated information. In educational contexts, this could lead to the confident delivery of incorrect information, which becomes particularly problematic in rapidly evolving fields where best practices change frequently.
 
-### One Concrete Application for Our Project
+### Application to Our Project
 
 For our AI tutoring tool project using Neo4j knowledge graphs, we aim to implement RAG PRISM's dual evaluation strategy to generate synthetic QA pairs by traversing knowledge relationships in our graph. For example, if “fractions” requires understanding “division”, then the system will automatically generate prerequisite checking questions. This approach would validate both the correctness of our knowledge graph relationships and the system's ability to handle the imperfect and grade appropriate queries that K 12 students actually produce. Hence, this approach ensures that our rewards systems are triggered by genuine understanding rather than pattern matching.
 
@@ -74,7 +74,7 @@ For our AI tutoring tool project using Neo4j knowledge graphs, we aim to impleme
 
 This research paper addresses the critical challenge of ensuring quality and reliability in LLM generated educational feedback, where hallucinations and low quality responses can undermine student learning outcomes. The authors propose a Dean of LLM Tutors framework that employs LLM feedback evaluators to automatically assess feedback quality across 16 dimensions covering content effectiveness, pedagogical value, and hallucination detection before delivery to students. Using a synthetic dataset of 200 assignment submissions from 85 university computer science courses, they trained and evaluated various commercial LLMs as feedback evaluators, where the fine tuned GPT 4.1 achieved human expert level performance of 79.8% accuracy. When this Dean LLM evaluated feedback from 10 commercial LLMs across 2,000 instances, Gemini 2.5 Pro demonstrated the highest quality with zero detected hallucinations while smaller models like GPT 4.1 Nano and Gemini 2.0 Flash Lite showed significant deficiencies in both quality and reliability.
 
-### Three Key Insights
+### Key Insights
 
 The fine tuning with explanatory data actually degraded model performance, which reveals the counterintuitive aspect of LLM training strategies. While experts may suggest that explanatory data should improve model understanding, the study found that GPT 4.1 fine tuned with explanatory instances performed worse, with an accuracy of 72.1%, than the baseline zero shot model, with an accuracy of 73.4%. This degradation was particularly severe in hallucination detection, where accuracy dropped by up to 30.3%. This indicates that mixed training signals from different prompt types can confuse models about their evaluation objectives.
 
@@ -82,12 +82,12 @@ The research demonstrates that reasoning focused models specifically excel at ha
 
 The lack of correlation between model size and feedback quality challenges the assumptions about LLM capabilities. While GPT 4.1 Nano produced significantly more hallucinations with an 11% detection rate, mid sized models performed comparably to larger ones in overall feedback quality; the differences ranged from 1% to 1.6% between best and worst performances.
 
-### Two Limitations and Risks
+### Critical Limitations and Risks
 
 The complete reliance on synthetic data during both training and evaluation process reveals the most significant limitation on account of the fact that there are no real world examples of actual students performances. The authors also acknowledge this gap that all evaluations use synthetic assignment submissions and automated metrics without testing whether their quality assessments correlate with actual student learning improvements, comprehensions, or engagements. Thus, this approach may produce metrics that are not related to real world problems.
 
 Another critical risk comes from the potential evaluation errors in the proposed system architecture. The Dean LLM itself can make mistakes where the best model only achieves an accuracy of 79.8%. This implies that the current system sometimes rejects good feedback or approves poor feedback for edge cases or novel educational contexts that are not well represented in training data. On the other hand, this paper does not address failure modes or provide mechanisms for human oversight when the Dean LLM's confidence is low, which creates potential blind spots in quality assurance.
 
-### One Concrete Application for Our Project
+### Application to Our Project
 
 We hope to implement a multi stage feedback validation pipeline that is inspired by this paper's dimensional framework. By creating a simplified 8 dimensional evaluation rubric that focuses on age appropriate criteria such as reading level alignment, positive reinforcement presence, and concrete example usage, we can use our knowledge graph to validate our LLM generated responses by checking whether the references are stored in our knowledge graph or not.Rather than relying solely on automated evaluation, implement a confidence based routing system where high confidence feedback proceeds directly to students and low confidence feedback proceeds to a new cycle of generations. Since this approach combines the paper's systematic evaluation framework with our knowledge graph, we can avoid incorrect feedback that could significantly impact foundational understanding of our users.
