@@ -30,9 +30,9 @@
 
 ## 🆘 Problem Statement and Why It Matters
 
-American education is in trouble. When only 3 out of 10 kids can read at grade level and even fewer can handle basic math, we have got a serious problem on our hands. It's not just about test scores either. We're missing 400,000+ teachers nationwide, and the ones we have are overwhelmed. Meanwhile, afterschool programs that could help bridge these gaps are turning kids away because they simply don't have enough staff or resources.
+American education is in trouble. When [less than half of kids can read at grade level,](https://caaspp-elpac.ets.org/caaspp/DashViewReportSB?ps=true&lstTestYear=2024&lstTestType=B&lstGroup=1&lstSubGroup=1&lstSchoolType=A&lstGrade=13&lstCounty=00&lstDistrict=00000&lstSchool=0000000) and even fewer can handle basic math, we have a serious problem. It's not just about test scores either. As a nation, there are over 400,000 teaching positions [either unfulfilled or employing teachers without full certifications.](https://learningpolicyinstitute.org/product/state-teacher-shortages-vacancy-resource-tool-2024)
 
-Although places like Two By Two Learning Center are doing incredible work to support kids after school,  there are over a third of programs struggle just to find qualified tutors. Parents are trying to help with homework but they often make things worse since research shows that about two thirds of parental homework help is actually counterproductive. Kids are falling further behind, tutors are burning out, and everyone's frustrated. We desperately need tools that can exemplify the impact of the educators and help kids to learn rather than giving them answers.
+Although places like [Two By Two Learning Center](https://www.twobytwolearningcenters.com) are doing incredible work to support kids after school, [over 60%](https://nces.ed.gov/surveys/spp/results.asp) of public schools nationally offer academically focused after-school programming. Kids are falling further behind, tutors are burning out, and everyone is frustrated. We desperately need tools that can exemplify the impact of the educators and help kids learn.
 
 ---
 
@@ -40,42 +40,44 @@ Although places like Two By Two Learning Center are doing incredible work to sup
 
 Our tool needs to work for four very different groups, each with their own challenges. 
 
-* **Young kids (K-5)** are basically ignored by current AI tutors on account of the fact that they can't type well, don't know how to ask the right questions, and need lots of assistances. They need something more like a friendly game than a chatbot. 
+* **Elementary school students** are often not the target audience of AI tutors. It's harder to make a practical tool for this group due to their lower abilities in typing and prompting with good questions. Perhaps a tutor that turns everything into a sort of game would better suit this group. 
 
-* **Middle schoolers** are old enough to use technology but they still need guidance. They're mainly looking for homework help and confidence boosters. 
+* **Middle school students** are old enough to use technology but still need guidance. They're mainly looking for homework help and confidence boosters, which an AI tutor can provide. 
 
-* **High schoolers** are more knowledgeable so we need to make learning more engaging than just copying answers.
+* **High school students** are generally more knowledgeable than their younger peers, being able to ask more complex questions. An AI tutor for this student group will need to be engaging, responsive, and comprehensive. 
 
-Then there are the **parents** - they're the ones paying for this, but most have no idea their kids are already using ChatGPT for homework. They want to see real progress, understand what their kids are learning, and know the tool is actually helping, not just doing the work for them. 
+**Parents** pay for their child's education, even though it's possible that their children are cheating with AI. Parents want to see real progress and results, understand what their kids are learning, and be shown how an AI tool is actually helping their kid, rather than doing the student's work for them. 
 
-Finally, **afterschool staff** need something that makes their jobs easier rather than harder. Since they are often college students or community volunteers, they need support too. The tool should help them track progress, communicate with parents, and actually teach better; they need to handle the tedious stuff like generating practice problems and grading.
+**After-school staff** have a lot on their plate. They need a tool that will help efficiency and simplify their jobs. An AI tutoring tool should help staff track individual student progress, communicate with parents, and give in-depth reports of what was learned each session. An AI may even be able to help create practice lessons and/or quizzes.
 
 | 👥 **User** | 🏆 **Primary Goal** | 🔧 **What We Provide** |
 |-------------|--------------------|------------------------|
-| **Young kids (K-5)** | Fun, guided learning | Game-like interface, voice input |
-| **Middle schoolers** | Homework help, confidence | Socratic hints, streak bonuses |
-| **High schoolers** | Engaging learning | Challenge modes, boss battles |
-| **Parents** | See real progress | Weekly achievement reports |
-| **Afterschool staff** | Easier tutoring & tracking | Dashboards, auto-grading |
+| **Young kids (K-5)** | Fun, guided learning | Game-like interface with voice input |
+| **Middle schoolers** | Homework help, improving confidence | Socratic hints and Streak bonuses |
+| **High schoolers** | Engaging learning | Challenge modes with boss battles |
+| **Parents** | Demonstrate real progress | Weekly achievement reports |
+| **Afterschool staff** | Easier tutoring & tracking | Dashboards and auto-grading |
 
 ---
 
 ## 🏁 Competitive Landscape and AI Limitations
 
-For the current AI tutoring tools, they're pretty bad at actually tutoring. Even though Khan Academy's Khanmigo looks impressive for $4 a mont and Photomath can solve any equation you throw at it, they all share the same fundamental flaws. The biggest issue is that these AIs have the memory of a goldfish. They can't remember what they taught you five minutes ago. Imagine a human tutor who introduces themselves at the start of every sentence; it is basically what we're dealing with.
+We've found that current AI tutoring tools aren't always as effective as needed, or have other flaws. For example, Khan Academy's Khanmigo costs $4/month, and can solve many complex equations. However, many AIs lack long-term memory and recall, making it difficult to bring up past lessons and integrate them into current ones.
 
-The hallucination problem is even scarier in education. When an AI confidently tells a kid thatthat 7 × 8 = 54, it's not just wrong; it's actively harmful. Studies are showing that students who rely on basic ChatGPT for homework actually do *worse* on tests. Why? Because the AI gives them wrong information mixed with right information, and kids can't tell the difference. Plus, these tools have zero emotional intelligence. They can't tell if a student is frustrated, bored, or just pretending to understand. They just keep plowing ahead with the same robotic explanations, missing all the human cues that real teachers use to adjust their approach.
+Another problem with AI tutors is AI hallucination. An AI hallucination involves an AI tutor confidently giving a student an incorrect answer. In a disagreement, this may lead to the student believing their own correct work is wrong, decreasing confidence. A [July 2024 research paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486) showed that students who were given an AI tutor to study with and proceeded to have that tutor taken away actually did worse on tests than students who never had an AI tutor at all.
 
 ---
 
 ## 🚀 Initial Concept and Value Proposition
 
 Our platform represents a fundamental shift from generic AI tutoring systems to a specialized, educationally-grounded architecture designed specifically for K-12 mathematics learning. Rather than deploying monolithic language models that treat educational interactions as general conversations, we are developing a heterogeneous system where specialized small language models handle distinct educational tasks with greater efficiency and accuracy.
+
 The foundation of our approach rests on three interconnected innovations. First, we employ a Neo4j knowledge graph that encodes the structural relationships between mathematical concepts, prerequisite dependencies, and learning progressions. This graph architecture ensures that the system understands not merely that fractions exist as a topic, but that mastery requires prior understanding of division, which itself builds upon multiplication and addition fundamentals. This structural knowledge enables pedagogically sound instruction sequencing that adapts to each student's actual conceptual foundation.
 
 Second, we implement a dual-memory personalization system that distinguishes between persistent student characteristics and session-specific learning context. The long-term memory component, integrated with our Neo4j graph, maintains comprehensive profiles of topic mastery levels, identified misconceptions, and successful learning strategies for each student. The working memory tracks immediate problem-solving states, recent hints provided, and emotional indicators, enabling real-time adaptation without losing sight of broader learning objectives.
 
-Third, our gamification framework transforms routine practice into engaging progression systems modeled after successful educational game design principles. Students earn Knowledge Crystals for concept mastery, unlock Learning Worlds as they advance through curriculum sequences, and customize their AI tutor avatars using earned points. The system implements streak bonuses for consistent practice, collaborative challenges for study groups, and complex Boss Battles that require synthesis of multiple concepts. These mechanics create intrinsic motivation while maintaining educational integrity through careful alignment with learning objectives.
+Third, our gamification framework transforms routine practice into engaging progression systems modeled after successful educational game design principles. Students earn Knowledge Crystals for concept mastery, unlock Learning Worlds as they advance through curriculum sequences, and customize their AI tutor avatars using earned points. The system implements streak bonuses for consistent practice, collaborative challenges for study groups, and complex boss battles that require synthesis of multiple concepts. These mechanics create intrinsic motivation while maintaining educational integrity through careful alignment with learning objectives.
+
 For Two By Two Learning Center, this architecture delivers measurable operational advantages. Tutors receive an AI assistant with institutional memory that builds upon previous sessions rather than approaching each interaction as isolated events. The system provides real-time diagnostic dashboards identifying specific conceptual gaps across student cohorts, enabling proactive intervention before misconceptions solidify. Parents receive achievement reports formatted as engaging progress narratives rather than traditional grade summaries, increasing engagement with their children's learning journey.
 
 The platform addresses critical limitations identified in current AI tutoring systems through multiple quality assurance mechanisms. We employ specialized evaluation models to assess feedback quality across pedagogical dimensions before delivery to students, preventing the propagation of hallucinations or incorrect mathematical guidance. The GraphRAG architecture ensures that explanations remain grounded in verified educational content while maintaining conceptual coherence across related topics. This multi-layered validation approach protects educational integrity while enabling the personalized, adaptive instruction that makes AI tutoring transformative rather than merely supplemental.
