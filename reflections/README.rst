@@ -17,4 +17,4 @@ Here are our reflections on the relevant research papers that we found:
 
 Let's check out `Qian Hu's findings! <./Hu_Qiran.md>`_
 
-Let's check out `Ryan Pearlman's findings! <./Pearlman_Ryan.md>`_.
+Let's check out `Ryan Pearlman's findings! <./Pearlman_Ryan.md>`_
