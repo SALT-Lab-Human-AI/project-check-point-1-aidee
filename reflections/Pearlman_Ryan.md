@@ -1,4 +1,6 @@
-# Research paper 1:
+# Research papers analysis 
+
+## Generative AI Can Harm Learning
 
 ### Citation and link:
 Bastani, Hamsa and Bastani, Osbert and Sungu, Alp and Ge, Haosen and Kabakcı, Özge and Mariman, Rei, Generative AI Can Harm Learning (July 15, 2024). The Wharton School Research Paper. 
@@ -20,7 +22,7 @@ This research paper followed an experiment regarding AI-tutors in multiple real 
 1 Concrete idea this inspires for my project:
 - We will implement our AI in such a way that it acts as a true tutor to the students, encouraging them to solve problems on their own, rather than something they can simply get an answer out of. 
 
-# Research paper 2: 
+## A Multi-Dimensional Approach to Tutor Training with Emerging Technologies
 
 ### Citation and link:
 Bebergal, Jennifer L. “A Multi-Dimensional Approach to Tutor Training with Emerging Technologies.” The learning assistance review : the journal of the Midwest College Learning Center Association. (2025): 146–193.
