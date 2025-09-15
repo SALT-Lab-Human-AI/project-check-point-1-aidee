@@ -137,3 +137,4 @@ The system's fundamental reliance on large language model capabilities presents 
 ### Application to Our Project
 
 By implementing a hybrid memory architecture, our knowledge graph could serve as the long term memory component where each concept node is enriched with specific attributes such as historical error patterns and identified misconceptions. Since graph relationships naturally represents prerequisite chains and conceptual dependencies, this enables sophisticated reasoning about learning paths. Meanwhile, a lightweight session memory helps the model to focus on the current problem. This dual memory approach makes our system to award points correct answers as well as improved understanding of previously challenging concepts. As one can see, this creates a better mechanism that reinforces learning process rather than giving away answers.
+
