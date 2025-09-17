@@ -13,6 +13,8 @@ Here are the APA citations of the research papers that we found:
 6. Bebergal, Jennifer L. “A Multi-Dimensional Approach to Tutor Training with Emerging Technologies.” The learning assistance review : the journal of the Midwest College Learning Center Association. (2025): 146–193. https://secure-res.craft.do/v2/AXfLBxG9gwR8TXMcgBZJpg7Ht2CHprNgRv2yc64BxDHMcnRL1EVx6km77A8LadV6HRZxokhQsfWjZfHhYJSjMJLTowQwRKMpX4GkQupo2qUemXfa8YEsozmrnvdPwZG7kFxAsE31nwKmHguv9AbXxyuJqxV8fLt6pmPpxd4d1LxynztqQFFchJNDEftZrNGUWBg9GyvsXkdXxUtsxjiuZRhPwK4k4V2m6Mej6NeMWR2dKdgs62HpDAmygNSPBJWexjcbUVarjSsriPLq5gwVG2XNfcXosHBjDMfXsu3ysWZKK2TAEWHA4VeUEJeZLeTDQuARtGPasmbWrPdHRqgLm95WqRpEUGGRTPKAyuZLmDwTkDtQ3W6tkQnP35GxBiJxRRN7h2DBhKXc1PT77e1DdA3Nz19FBC77rZp3ADTTmi9taBtsjQgwQ/10.%20A%20Multi-Dimensional%20Approach%20to%20Tutor%20Training%20with%20Emerging%20Technologies.pdf
 7. Weitekamp, D., Siddiqui, M. N., & MacLellan, C. J. (2025). TutorGym: A Testbed for Evaluating AI Agents as Tutors and Students. arXiv [Cs.AI]. Retrieved from http://arxiv.org/abs/2505.01563
 8. Jiang, Y.-H., Lu, Y., Dai, L., Wang, J., Li, R., & Jiang, B. (2025). Agentic Workflow for Education: Concepts and Applications. arXiv [Cs.CY]. Retrieved from http://arxiv.org/abs/2509.01517
+9. Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., & Cao, Y. (2022). ReAct: Synergizing reasoning and acting in language models. arXiv. https://arxiv.org/abs/2210.03629
+10. Zhang, Z., Bo, X., Ma, C., Li, R., Chen, X., Dai, Q., Zhu, J., Dong, Z., & Wen, J.-R. (2024). A Survey on the Memory Mechanism of Large Language Model based Agents. arXiv. https://doi.org/10.48550/arXiv.2404.13501
 
 Here are our findings:
 ===============
