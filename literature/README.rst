@@ -148,3 +148,24 @@ Here are the BibTeX citations of the relevant research papers that we found:
       url={https://arxiv.org/abs/2509.01517}, 
 
 }
+
+9. @misc{zhang2024surveymemorymechanismlarge,
+      title={A Survey on the Memory Mechanism of Large Language Model based Agents}, 
+      author={Zeyu Zhang and Xiaohe Bo and Chen Ma and Rui Li and Xu Chen and Quanyu Dai and Jieming Zhu and Zhenhua Dong and Ji-Rong Wen},
+      year={2024},
+      eprint={2404.13501},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2404.13501}, 
+}
+
+10. @misc{yao2023reactsynergizingreasoningacting,
+      title={ReAct: Synergizing Reasoning and Acting in Language Models}, 
+      author={Shunyu Yao and Jeffrey Zhao and Dian Yu and Nan Du and Izhak Shafran and Karthik Narasimhan and Yuan Cao},
+      year={2023},
+      eprint={2210.03629},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2210.03629}, 
+}
+
