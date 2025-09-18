@@ -90,11 +90,6 @@ The platform addresses critical limitations identified in current AI tutoring sy
 
 ---
 
-## 🛠️ Getting Started
-
-...
-
----
 
 ## 📝 License
 
