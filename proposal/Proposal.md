@@ -97,7 +97,25 @@ vs. Early graph RAG demos: Optimized for after-school scenarios—supports high-
 
 ## Plan For Checkpoint 2
 
-...
+### Tools to include Tentative
+ChatGPT (GPT-5) 
+Microsoft Copilot 
+Perplexity
+Duolingo
+### Scope (what we will validate)
+Do current tools handle step-level tutoring (spot a mistake, give the next step, give a short hint) well?
+Do they hallucinate/agree with wrong student claims?
+Where are the UX/cost/latency pain points that our design fixes?
+
+### Tasks (3 scenarios, ~12 items each)
+T1 Homework help (typical): ask for one next step + one-sentence hint.
+T2 Item generation (edge): 1 MCQ + 3 distractors targeting a specific misconception.
+T3 Step fix (failure): given a wrong intermediate step → (a) flag wrong, (b) give one correct next action.
+
+### Prompts (stable across tools)
+Single “tutor” role prompt per task; fixed output format (short plain text or minimal JSON).
+No retries beyond 1; record both attempts.
+Keep wording constant to make results comparable.
 
 ---
 
