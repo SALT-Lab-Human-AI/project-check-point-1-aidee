@@ -18,9 +18,11 @@ https://www.khanmigo.ai/
 
 General LLMs are great at quickly producing step-by-step explanations across many topics, but evaluations that only check the final answer tend to overstate their tutoring utility (Weitekamp, Siddiqui, & MacLellan, 2025). In step-level classroom tasks—flagging an incorrect action, giving the next correct step, and providing targeted hints—LLMs remain unstable (incorrect-action labeling ~chance; next-step accuracy ≈ 52–70%) (Weitekamp et al., 2025). They can also exhibit sycophancy—agreeing with a user’s mistaken belief rather than correcting it—documented across RLHF-trained assistants and measured in multiple studies (Sharma et al., 2023; Malmqvist, 2024).  
   
-### Graph-RAG for tutoring:
+### Duolingo (Max and Core App)
+Duolingo is a gamified learning platform (now expanded into math/music/chess domains) featuring a powerful user retention loop and spaced repetition functionality. Its strengths lie in incentive mechanisms and polished user experience, but it remains domain-specific (language-first), requires payment to unlock AI features, and is not designed for step-by-step math tutoring or cross-session concept modeling. For our application scenario (K-12 math), Duolingo lacks the required foundational knowledge graph and validated step-checking capabilities. (Gap: Domain adaptability and pedagogical depth)
 
-These systems plug a knowledge graph into retrieval so the tutor follows real prerequisite paths (e.g., multiplication → division → fractions) instead of guessing. Early demos (like CourseMapper) look promising for targeted questions and explanations, but most tests are small and lab-style—so real classroom gains are still unclear (Abdelmagied et al., 2025). 
+### Perplexity (Retrieval-Enhanced Chat Engine)
+Perplexity returns answers with embedded citations and enables rapid web verification. This excels in research retrieval and quick synthesis but is unsuitable for tutoring workflows: it lacks persistent student models, step-by-step “next action” guidance, and has limited control over the flattery-based behavior common in reinforcement learning-based tools (Sharma et al., 2023). 
 
 
 @misc{sharma2025understandingsycophancylanguagemodels,
