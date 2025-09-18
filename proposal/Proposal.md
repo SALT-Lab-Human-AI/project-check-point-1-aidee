@@ -99,7 +99,7 @@ vs. Early graph RAG demos: Optimized for after-school scenarios—supports high-
 
 ## Plan For Checkpoint 2
 
-### Tools to include Tentative
+### Tools to include (Tentative)
 ChatGPT (GPT-5) 
 Microsoft Copilot 
 Perplexity
