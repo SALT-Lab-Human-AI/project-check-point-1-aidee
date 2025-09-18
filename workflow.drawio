@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="AI Tutor Agent Workflow" id="0">
-        <mxGraphModel dx="576" dy="723" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0" adaptiveColors="auto">
+        <mxGraphModel dx="271" dy="340" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0" adaptiveColors="auto">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -17,21 +17,21 @@
                     <mxGeometry x="299" y="261" width="224" height="44" as="geometry"/>
                 </mxCell>
                 <mxCell id="n_finetuned" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#8B5CF6;" parent="g_models" vertex="1">
-                    <mxGeometry x="10.181818181818182" y="18.333333333333332" width="8.145454545454546" height="11.733333333333333" as="geometry"/>
+                    <mxGeometry x="14.001818181818182" y="20.53333333333333" width="8.145454545454546" height="11.733333333333333" as="geometry"/>
                 </mxCell>
                 <mxCell id="n_model2" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#8B5CF6;" parent="g_models" vertex="1">
-                    <mxGeometry x="82.99540419580421" y="20.53333333333333" width="8.145454545454546" height="11.733333333333333" as="geometry"/>
+                    <mxGeometry x="86.99540419580421" y="20.53333333333333" width="8.145454545454546" height="11.733333333333333" as="geometry"/>
                 </mxCell>
                 <mxCell id="n_model3" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#8B5CF6;" parent="g_models" vertex="1">
-                    <mxGeometry x="162.4621202797203" y="20.53333333333333" width="8.145454545454546" height="11.733333333333333" as="geometry"/>
+                    <mxGeometry x="164.0021202797203" y="20.53333333333333" width="8.145454545454546" height="11.733333333333333" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;i style=&quot;&quot;&gt;Agent&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;A&lt;/sub&gt;&lt;/span&gt;&amp;nbsp;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="g_models" vertex="1">
-                    <mxGeometry x="21.331841491841494" y="11.736666666666666" width="50.909090909090914" height="29.333333333333332" as="geometry"/>
+                <mxCell id="22" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;i style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;font style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(0, 0, 0);&quot;&gt;Agent&lt;span style=&quot;font-size: 8.33333px;&quot;&gt;&lt;sub&gt;A&lt;/sub&gt;&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="g_models" vertex="1">
+                    <mxGeometry x="25.001841491841496" y="11.736666666666666" width="50.909090909090914" height="29.333333333333332" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-align: center;&quot;&gt;&lt;i style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;Agent&lt;span style=&quot;font-size: 8.33333px;&quot;&gt;&lt;sub&gt;B&lt;/sub&gt;&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="g_models" vertex="1">
-                    <mxGeometry x="99.00100917431195" y="11.74" width="38.18275229357798" height="29.07" as="geometry"/>
+                <mxCell id="23" value="&lt;i style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-align: center; color: rgb(63, 63, 63);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;Agent&lt;span style=&quot;font-size: 8.33333px;&quot;&gt;&lt;sub&gt;B&lt;/sub&gt;&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;div&gt;&lt;i style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-align: center; color: rgb(63, 63, 63);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-size: 8.33333px;&quot;&gt;&lt;sub&gt;&lt;br&gt;&lt;/sub&gt;&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="g_models" vertex="1">
+                    <mxGeometry x="103.00100917431195" y="11.74" width="38.18275229357798" height="29.07" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-align: center;&quot;&gt;&lt;i style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;Agent&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub&gt;n&lt;/sub&gt;&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="g_models" vertex="1">
+                <mxCell id="59" value="&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); text-align: center;&quot;&gt;&lt;i style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Agent&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sub style=&quot;&quot;&gt;n&lt;/sub&gt;&lt;/span&gt;&lt;/font&gt;&lt;/i&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="g_models" vertex="1">
                     <mxGeometry x="174.77155804195806" y="11.736666666666666" width="41.36363636363636" height="26.4" as="geometry"/>
                 </mxCell>
                 <mxCell id="n_thought" value="Thought" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F3E8FF;strokeColor=#8B5CF6;" parent="1" vertex="1">
