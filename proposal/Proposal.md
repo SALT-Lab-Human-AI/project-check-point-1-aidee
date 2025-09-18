@@ -8,7 +8,78 @@ Although places like [Two By Two Learning Center](https://www.twobytwolearningce
 
 ## Prior Systems & Gaps
 
-...
+### Khanmigo (Khan Academy)
+
+Khanmigo is an AI tutor tightly integrated with Khan Academy’s content and tools, offered at $4/month for learners and parents (free for teachers), and powered by GPT-4. Its focus on Khan’s curriculum and classroom workflows is a strength for alignment with assignments and teacher dashboards, but it also means limited cross-platform generalization and restricted long-term, cross-session personalization relative to a purpose-built memory layer. Like other LLM-based tutors, it can also inherit general hallucination risks, so upstream validation/guardrails remain important. [](https://www.khanmigo.ai/parents?utm_source=chatgpt.com)
+
+https://www.khanmigo.ai/
+
+### General LLM conversational tutors (ChatGPT, Gemini, etc.)
+
+General LLMs are great at quickly producing step-by-step explanations across many topics, but evaluations that only check the final answer tend to overstate their tutoring utility (Weitekamp, Siddiqui, & MacLellan, 2025). In step-level classroom tasks—flagging an incorrect action, giving the next correct step, and providing targeted hints—LLMs remain unstable (incorrect-action labeling ~chance; next-step accuracy ≈ 52–70%) (Weitekamp et al., 2025). They can also exhibit sycophancy—agreeing with a user’s mistaken belief rather than correcting it—documented across RLHF-trained assistants and measured in multiple studies (Sharma et al., 2023; Malmqvist, 2024).  
+  
+### Graph-RAG for tutoring:
+
+These systems plug a knowledge graph into retrieval so the tutor follows real prerequisite paths (e.g., multiplication → division → fractions) instead of guessing. Early demos (like CourseMapper) look promising for targeted questions and explanations, but most tests are small and lab-style—so real classroom gains are still unclear (Abdelmagied et al., 2025). 
+
+
+@misc{sharma2025understandingsycophancylanguagemodels,
+
+      title={Towards Understanding Sycophancy in Language Models}, 
+
+      author={Mrinank Sharma and Meg Tong and Tomasz Korbak and David Duvenaud and Amanda Askell and Samuel R. Bowman and Newton Cheng and Esin Durmus and Zac Hatfield-Dodds and Scott R. Johnston and Shauna Kravec and Timothy Maxwell and Sam McCandlish and Kamal Ndousse and Oliver Rausch and Nicholas Schiefer and Da Yan and Miranda Zhang and Ethan Perez},
+
+      year={2025},
+
+      eprint={2310.13548},
+
+      archivePrefix={arXiv},
+
+      primaryClass={cs.CL},
+
+      url={https://arxiv.org/abs/2310.13548}, 
+
+}
+
+  
+
+@misc{weitekamp2025tutorgymtestbedevaluatingai,
+
+      title={TutorGym: A Testbed for Evaluating AI Agents as Tutors and Students}, 
+
+      author={Daniel Weitekamp and Momin N. Siddiqui and Christopher J. MacLellan},
+
+      year={2025},
+
+      eprint={2505.01563},
+
+      archivePrefix={arXiv},
+
+      primaryClass={cs.AI},
+
+      url={https://arxiv.org/abs/2505.01563}, 
+
+}
+
+  
+
+@misc{abdelmagied2025leveraginggraphretrievalaugmentedgeneration,
+
+      title={Leveraging Graph Retrieval-Augmented Generation to Support Learners' Understanding of Knowledge Concepts in MOOCs}, 
+
+      author={Mohamed Abdelmagied and Mohamed Amine Chatti and Shoeb Joarder and Qurat Ul Ain and Rawaa Alatrash},
+
+      year={2025},
+
+      eprint={2505.10074},
+
+      archivePrefix={arXiv},
+
+      primaryClass={cs.AI},
+
+      url={https://arxiv.org/abs/2505.10074}, 
+
+}
 
 ---
 
