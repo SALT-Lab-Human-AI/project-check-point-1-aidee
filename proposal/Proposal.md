@@ -85,7 +85,13 @@ These systems plug a knowledge graph into retrieval so the tutor follows real pr
 
 ## Our Proposed Approach and Why It Will Improve On Prior Systems
 
-...
+We combine mathematical concept maps (Neo4j) with retrieval mechanisms to ensure each prompt follows authentic prerequisite paths (rather than random guesswork). A dual-memory architecture (long-term retention + conversational context) maintains consistency across sessions while enabling real-time responses. A lightweight step validator (substitution/units/range) filters incorrect answers before students see them, then the tutoring layer transforms validated solutions into child-friendly steps and precise distractors. 
+
+vs. Khanmigo: Unconstrained by single-curriculum systems; offers stronger cross-session personalization and foundational knowledge building. 
+
+vs. Chat tutoring tools: Designed specifically for step-by-step guidance (prompting next actions, pinpointing error roots) rather than merely providing final answers. 
+
+vs. Early graph RAG demos: Optimized for after-school scenarios—supports high-speed queries, caching mechanisms, and provides weekly mastery reports for parents and educators.
 
 ---
 
