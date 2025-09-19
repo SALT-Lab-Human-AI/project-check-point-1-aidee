@@ -78,12 +78,16 @@ Perplexity is good at citing sources, but it's not a true tutor: it doesn't have
 
 ## 📚 Literature Review Highlights
 
-Qiran Hu 
+Qiran Hu:
 
-- 
-- 
+[AI-Powered Math Tutoring Platform Research](https://arxiv.org/abs/2507.12484)
+
+- This research addresses a critical gap in current AI tutoring systems where the AI systems tend to provide direct answers rather than showing step by step solutions. With dual memory architecture, this sophisticated approach provides both strategically informed guidance based on historical patterns and detailed responsive support based on context.
+
+- By implementing a hybrid memory architecture, the knowledge graph could serve as the long term memory component where each concept node has specific attributes such as historical error patterns and identified misconceptions. Since graph relationships naturally represents prerequisite chains and conceptual dependencies, this enables sophisticated reasoning about learning paths.
 
 Tony Yu:
+
 [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
 
 Packer, C., Wooders, S., Lin, K., Fang, V., Patil, S. G., Stoica, I., & Gonzalez, J. E. (2024). MemGPT: Towards LLMs as Operating Systems. arXiv [Cs.AI]. Retrieved from http://arxiv.org/abs/2310.08560
@@ -93,7 +97,15 @@ Packer, C., Wooders, S., Lin, K., Fang, V., Patil, S. G., Stoica, I., & Gonzalez
 - Use Archival as a compact student profile while keeping full transcripts in Recall; have the tutor auto-summarize to Archival when memory pressure warnings appear and reload from these notes at the start of each session.
 
 
-Ryan Pearlman: I read a paper about researchers who put an AI, an AI tutor with special prompts, and no AIs into three math classrooms and compared test results to each other. The results showed students learned much better with a tutor who guides them instead of giving the answers, but students without a special AI tutor performed the same on standardized tests than ones with the specialized tutor. We will make sure that our AI tutor does not give answers away as that seems to make students use the AI as a crutch and perform worse overall.
+Ryan Pearlman: 
+
+[Generative AI Can Harm Learning](http://dx.doi.org/10.2139/ssrn.4895486)
+
+Bastani, Hamsa and Bastani, Osbert and Sungu, Alp and Ge, Haosen and Kabakcı, Özge and Mariman, Rei, Generative AI Can Harm Learning (July 15, 2024). The Wharton School Research Paper. http://dx.doi.org/10.2139/ssrn.4895486 
+
+- Researchers who put an AI, an AI tutor with special prompts, and no AIs into three math classrooms and compared test results to each other. 
+
+- The results show students learned much better with a tutor who guides them instead of giving the answers, but students without a special AI tutor performed the same on standardized tests than ones with the specialized tutor. We will make sure that our AI tutor does not give answers away as that seems to make students use the AI as a crutch and perform worse overall.
 
 Rosie Xu:
 
@@ -134,7 +146,7 @@ This enhanced muti-agent workflow provides several advantages over simpler tutor
 
 This is our proposed MEGRAG architecture
 
-$$\boxed{\mathrm{Score_{memory}} = S\,(1 - r_{\mathrm{semantic}})^{\,t_{\mathrm{semantic}}} + E\,(1 - r_{\mathrm{episodic}})^{\,t_{\mathrm{episodic}}} + P\,(1 - r_{\mathrm{procedural}})^{\,t_{\mathrm{procedural}}}}$$
+$$\boxed{\mathrm{Score_{memory}} = S(1 - r_{\mathrm{semantic}})^{t_{\mathrm{semantic}}} + E(1 - r_{\mathrm{episodic}})^{t_{\mathrm{episodic}}} + P(1 - r_{\mathrm{procedural}})^{t_{\mathrm{procedural}}}}$$
 
 where $S$ is the semantic memory, $t_{\text{semantic}}$ is the hours passed since the semantic memory in the retriever was last accessed rather than created, $E$ is the episodic memory, $t_{\text{episodic}}$ is the hours passed since the episodic memory in the retriever was last accessed rather than created, $P$ is procedural memory, and $t_{\text{procedural}}$ is the hours passed since the procedural memory in the retriever was last accessed rather than created.
 

@@ -122,7 +122,7 @@ This research addresses a critical gap in current AI tutoring systems where the 
 
 ### Key Insights
 
-The dual memory architecture represents a sophisticated approach to personalization that distinguishes between persistent student characteristics and session specific context. Long term memory maintains stable attributes such as topic mastery levels, common misconceptions, and preferred learning styles. Meanwhile, working memory tracks the current problem state and recent interactions. This framework enables the system to provide both strategically informed guidance based on historical patterns and tactically responsive support based on immediate context.
+The dual memory architecture represents a sophisticated approach to personalization. Long term memory maintains stable attributes such as topic mastery levels, common misconceptions, and preferred learning styles. Meanwhile, working memory tracks the current problem state and recent interactions. This framework enables the system to provide both strategically informed guidance based on historical patterns and detailed responsive support based on context.
 
 The choice of GraphRAG over traditional vector based RAG for educational content retrieval reflects an important architectural decision. The graph structure more effectively represents the interconnected nature of mathematical concepts and their prerequisite relationships compared to standard vector embeddings. This structural advantage becomes particularly evident when the system needs to understand conceptual dependencies for course planning or proved contextually related explanations.
 
@@ -136,7 +136,7 @@ The system's fundamental reliance on large language model capabilities presents 
 
 ### Application to Our Project
 
-By implementing a hybrid memory architecture, our knowledge graph could serve as the long term memory component where each concept node is enriched with specific attributes such as historical error patterns and identified misconceptions. Since graph relationships naturally represents prerequisite chains and conceptual dependencies, this enables sophisticated reasoning about learning paths. Meanwhile, a lightweight session memory helps the model to focus on the current problem. This dual memory approach makes our system to award points correct answers as well as improved understanding of previously challenging concepts. As one can see, this creates a better mechanism that reinforces learning process rather than giving away answers.
+By implementing a hybrid memory architecture, our knowledge graph could serve as the long term memory component where each concept node contains specific attributes such as historical error patterns and identified misconceptions. Since graph relationships naturally represents prerequisite chains and conceptual dependencies, this enables sophisticated reasoning about learning paths. Meanwhile, a lightweight session memory helps the model to focus on the current problem. This dual memory approach makes our system to award points correct answers as well as improved understanding of previously challenging concepts. As one can see, this creates a better mechanism that reinforces learning process rather than giving away answers.
 
 ## Analysis A Survey on the Memory Mechanism of Large Language Model based Agents
 
