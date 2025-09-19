@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="AI Tutor Agent Workflow" id="0">
-        <mxGraphModel dx="576" dy="723" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0" adaptiveColors="auto">
+        <mxGraphModel dx="499" dy="578" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#FFFFFF" math="0" shadow="0" adaptiveColors="auto">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -96,8 +96,8 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="M-RAG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=2;" parent="1" vertex="1">
-                    <mxGeometry x="283" y="483" width="50" height="20" as="geometry"/>
+                <mxCell id="8" value="ME-GraphRAG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontStyle=2;" parent="1" vertex="1">
+                    <mxGeometry x="297" y="478" width="34" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" style="endArrow=classic;strokeWidth=1.5;strokeColor=#8B5CF6;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.85;exitY=0.05;exitDx=0;exitDy=0;fontColor=#000000;exitPerimeter=0;" parent="1" source="77" target="n_thought" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -142,21 +142,39 @@
                 <mxCell id="55" value="&lt;span style=&quot;forced-color-adjust: none; scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-family: Helvetica; font-size: 12px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-style: italic; text-align: center; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;LLM&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;forced-color-adjust: none; scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-family: Helvetica; font-size: 12px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-style: italic; text-align: center; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Feeback&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="705" y="475" width="106" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="&lt;span style=&quot;forced-color-adjust: none; scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-family: Helvetica; font-size: 12px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-style: italic; text-align: center; background-color: rgb(251, 251, 251); float: none; display: inline !important;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;LLM Evaluation&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+                <mxCell id="63" value="&lt;span style=&quot;forced-color-adjust: none; scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-family: Helvetica; font-size: 12px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-style: italic; text-align: center; background-color: rgb(251, 251, 251); float: none; display: inline !important;&quot;&gt;&lt;span style=&quot;forced-color-adjust: none; scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;LLM Evaluation&lt;/span&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="566" y="498" width="98" height="36" as="geometry"/>
                 </mxCell>
-                <mxCell id="73" style="endArrow=classic;strokeWidth=2;strokeColor=#8B5CF6;entryX=1;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="74" target="n_thought">
+                <mxCell id="73" style="endArrow=classic;strokeWidth=2;strokeColor=#8B5CF6;entryX=1;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="74" target="n_thought" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="618" y="325" as="sourcePoint"/>
                         <mxPoint x="421" y="271" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="74" value="Memeory&amp;nbsp;&lt;div&gt;Agent&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F3E8FF;strokeColor=#8B5CF6;fontColor=#000000;" vertex="1" parent="1">
+                <mxCell id="74" value="Memeory&amp;nbsp;&lt;div&gt;Agent&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F3E8FF;strokeColor=#8B5CF6;fontColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="598" y="266" width="99" height="47" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Neo4j Graph&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;DB&lt;/span&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=light-dark(#f3e8ff, #ededed);strokeColor=light-dark(#8b5cf6, #ededed);strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="77" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Neo4j Graph&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;DB&lt;/span&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=light-dark(#f3e8ff, #ededed);strokeColor=light-dark(#8b5cf6, #ededed);strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="314" y="521" width="61" height="73" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Working Memory&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F3E8FF;strokeColor=#8B5CF6;fontColor=#000000;rotation=-90;horizontal=1;textDirection=vertical-rl;" vertex="1" parent="1">
+                    <mxGeometry x="546" y="135" width="86" height="55.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Long-&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;term Memory&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F3E8FF;strokeColor=#8B5CF6;fontColor=#000000;rotation=-90;horizontal=1;textDirection=vertical-rl;" vertex="1" parent="1">
+                    <mxGeometry x="666" y="133" width="86" height="55.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" style="endArrow=classic;strokeWidth=2;strokeColor=#8B5CF6;fontColor=#000000;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="78" target="74">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="617.25" y="208" as="sourcePoint"/>
+                        <mxPoint x="617.25" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="84" style="endArrow=classic;strokeWidth=2;strokeColor=#8B5CF6;fontColor=#000000;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="82" target="74">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="717" y="198.5" as="sourcePoint"/>
+                        <mxPoint x="658" y="267.5" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>

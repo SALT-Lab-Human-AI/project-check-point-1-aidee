@@ -10,9 +10,7 @@ Although places like [Two By Two Learning Center](https://www.twobytwolearningce
 
 ### Khanmigo (Khan Academy)
 
-Khanmigo is an AI tutor tightly integrated with Khan Academy’s content and tools, offered at $4/month for learners and parents (free for teachers), and [powered by GPT-4](https://www.khanmigo.ai/parents?utm_source=chatgpt.com). Its focus on Khan’s curriculum and classroom workflows is a strength for alignment with assignments and teacher dashboards, but it also means limited cross-platform generalization and restricted long-term, cross-session personalization relative to a purpose-built memory layer. Like other LLM-based tutors, it can also inherit general hallucination risks, so upstream validation/guardrails remain important. 
-
-https://www.khanmigo.ai/
+[Khanmigo](https://www.khanmigo.ai/) is an AI tutor tightly integrated with Khan Academy’s content and tools, offered at $4/month for learners and parents (free for teachers), and [powered by GPT-4](https://www.khanmigo.ai/parents?utm_source=chatgpt.com). Its focus on Khan’s curriculum and classroom workflows is a strength for alignment with assignments and teacher dashboards, but it also means limited cross-platform generalization and restricted long-term, cross-session personalization relative to a purpose-built memory layer. Like other LLM-based tutors, it can also inherit general hallucination risks, so upstream validation/guardrails remain important. 
 
 ### General LLM conversational tutors (ChatGPT, Gemini, etc.)
 
