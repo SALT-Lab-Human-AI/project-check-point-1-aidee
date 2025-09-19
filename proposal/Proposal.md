@@ -28,6 +28,16 @@ Perplexity returns answers with embedded citations and enables rapid web verific
 
 ## Our Proposed Approach and Why It Will Improve On Prior Systems
 
+We keep a main context with three parts: system rules, a small working pad, and an adaptive queue that holds recent turns.
+
+The queue is not FIFO: it ranks items by relevance to the current problem, importance (grades, goals), freshness, and diversity (don’t keep four near-duplicates); low-score items decay and get compressed first. When the queue nears its limit, the tutor gets a warning, writes short summaries to the working pad, and distills stable knowledge to long-term storage.
+
+Archival memory lives in Neo4j: nodes for students, skills, concepts, problems, attempts, errors, and hints; edges track “practiced”, “blocked-by”, “helps-with”, etc. Retrieval is hybrid: fast graph queries (path patterns, neighbors) plus embedding search for similar problems; results are re-inserted into the queue by priority.
+
+We split memory by type: Fact Memory (stable facts like formulas and the student’s profile), Process Memory (plans and next steps) and Case Memory (worked examples and mistakes).
+
+Functions let the tutor promote items (queue → working pad), archive distilled notes (to Neo4j), or recall exact logs when needed. Each session starts by loading a tiny profile summary from Fact/Process Memory, and ends by updating Neo4j with mastered skills, open gaps, and one clear next action.
+
 We combine mathematical concept maps (Neo4j) with retrieval mechanisms to ensure each prompt follows authentic prerequisite paths (rather than random guesswork). A dual-memory architecture (long-term retention + conversational context) maintains consistency across sessions while enabling real-time responses. A lightweight step validator (substitution/units/range) filters incorrect answers before students see them, then the tutoring layer transforms validated solutions into child-friendly steps and precise distractors. 
 
 vs. Khanmigo: Unconstrained by single-curriculum systems; offers stronger cross-session personalization and foundational knowledge building. 
