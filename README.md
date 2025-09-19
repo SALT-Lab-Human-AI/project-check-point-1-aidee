@@ -66,7 +66,10 @@ We've found that current AI tutoring tools aren't always as effective as needed,
 
 Another problem with AI tutors is AI hallucination. An AI hallucination involves an AI tutor confidently giving a student an incorrect answer. In a disagreement, this may lead to the student believing their own correct work is wrong, decreasing confidence. A [July 2024 research paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486) showed that students who were given an AI tutor to study with and proceeded to have that tutor taken away actually did worse on tests than students who never had an AI tutor at all.
 
----
+Khanmigo is a $4-per-month GPT-4 tutoring tool with content integrated from Khan Academy. While it fits in classroom settings, it has limited cross-platform usability and lacks long-term personalization. 
+General large language model chat tutors (ChatGPT, Gemini) can quickly explain answer, but struggle with step-by-step instruction—they fail to identify errors, provide follow-up guidance, and may even agree with students' incorrect answers.
+Duolingo has good motivation through game-like loops, but it's core focus is language learning. It hasn't been adapted for math tutoring—lacking knowledge graphs and verification step-checking. 
+Perplexity is good at citing sources, but it's not a true tutor: it doesn't have a student model or provide “next steps” guidance.
 
 ## 🚀 Initial Concept and Value Proposition
 
