@@ -3,7 +3,24 @@
 ## Generative AI Can Harm Learning
 
 ### Citation and link:
-Bastani, Hamsa and Bastani, Osbert and Sungu, Alp and Ge, Haosen and Kabakcı, Özge and Mariman, Rei, Generative AI Can Harm Learning (July 15, 2024). The Wharton School Research Paper. 
+
+@misc{bastani2024generative,
+
+      title={Generative AI Can Harm Learning}, 
+
+      author={Hamsa Bastani and Osbert Bastani and Alp Sungu and Haosen Ge and Özge Kabakcı and Rei Mariman},
+
+      year={2024},
+
+      eprint={4895486},
+
+      archivePrefix={SSRN},
+
+      primaryClass={cs.CY},
+
+      url={http://dx.doi.org/10.2139/ssrn.4895486}, 
+
+}
 
 http://dx.doi.org/10.2139/ssrn.4895486
 
@@ -25,7 +42,24 @@ This research paper followed an experiment regarding AI-tutors in multiple real 
 ## A Multi-Dimensional Approach to Tutor Training with Emerging Technologies
 
 ### Citation and link:
-Bebergal, Jennifer L. “A Multi-Dimensional Approach to Tutor Training with Emerging Technologies.” The learning assistance review : the journal of the Midwest College Learning Center Association. (2025): 146–193.
+
+@misc{bebergal2025multidimensional,
+
+      title={A Multi-Dimensional Approach to Tutor Training with Emerging Technologies},
+
+      author={Bebergal, Jennifer L},
+
+      year={2025},
+
+      journal={Learning Assistance Review (TLAR)},
+
+      pages={146--193},
+
+      publisher={Midwest College Learning Center Association},
+
+      url={https://secure-res.craft.do/v2/AXfLBxG9gwR8TXMcgBZJpg7Ht2CHprNgRv2yc64BxDHMcnRL1EVx6km77A8LadV6HRZxokhQsfWjZfHhYJSjMJLTowQwRKMpX4GkQupo2qUemXfa8YEsozmrnvdPwZG7kFxAsE31nwKmHguv9AbXxyuJqxV8fLt6pmPpxd4d1LxynztqQFFchJNDEftZrNGUWBg9GyvsXkdXxUtsxjiuZRhPwK4k4V2m6Mej6NeMWR2dKdgs62HpDAmygNSPBJWexjcbUVarjSsriPLq5gwVG2XNfcXosHBjDMfXsu3ysWZKK2TAEWHA4VeUEJeZLeTDQuARtGPasmbWrPdHRqgLm95WqRpEUGGRTPKAyuZLmDwTkDtQ3W6tkQnP35GxBiJxRRN7h2DBhKXc1PT77e1DdA3Nz19FBC77rZp3ADTTmi9taBtsjQgwQ/10.%20A%20Multi-Dimensional%20Approach%20to%20Tutor%20Training%20with%20Emerging%20Technologies.pdf},
+
+}
 
 https://secure-res.craft.do/v2/AXfLBxG9gwR8TXMcgBZJpg7Ht2CHprNgRv2yc64BxDHMcnRL1EVx6km77A8LadV6HRZxokhQsfWjZfHhYJSjMJLTowQwRKMpX4GkQupo2qUemXfa8YEsozmrnvdPwZG7kFxAsE31nwKmHguv9AbXxyuJqxV8fLt6pmPpxd4d1LxynztqQFFchJNDEftZrNGUWBg9GyvsXkdXxUtsxjiuZRhPwK4k4V2m6Mej6NeMWR2dKdgs62HpDAmygNSPBJWexjcbUVarjSsriPLq5gwVG2XNfcXosHBjDMfXsu3ysWZKK2TAEWHA4VeUEJeZLeTDQuARtGPasmbWrPdHRqgLm95WqRpEUGGRTPKAyuZLmDwTkDtQ3W6tkQnP35GxBiJxRRN7h2DBhKXc1PT77e1DdA3Nz19FBC77rZp3ADTTmi9taBtsjQgwQ/10.%20A%20Multi-Dimensional%20Approach%20to%20Tutor%20Training%20with%20Emerging%20Technologies.pdf 
 
