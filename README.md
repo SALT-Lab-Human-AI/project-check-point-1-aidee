@@ -117,7 +117,7 @@ This is our proposed muti-agent workflow
 
 ---
 
-## 🤝 Contributions
+## 🤝 Team Contributions
 
 **Qiran Hu**
 
