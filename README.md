@@ -79,7 +79,7 @@ Duolingo has good motivation through game-like loops, but it's core focus is lan
 
 Perplexity is good at citing sources, but it's not a true tutor: it doesn't have a student model or provide “next steps” guidance.
 
-## 📚 Literature Review
+## 📚 Literature Review Highlights
 
 Qiran Hu 
 
@@ -95,6 +95,8 @@ Ryan Pearlman: I read a paper about researchers who put an AI, an AI tutor with 
 Rosie Xu:
 
 [Agentic Workflow for Education: Concepts and Applications](https://arxiv.org/abs/2509.01517)
+
+Jiang, Y.-H., Lu, Y., Dai, L., Wang, J., Li, R., & Jiang, B. (2025). Agentic Workflow for Education: Concepts and Applications. arXiv [Cs.CY]. Retrieved from http://arxiv.org/abs/2509.01517
 
 - The paper redefines agentic AI as something beyond simple Q&A interactions. It is a fundamental shift to a non-linear orchestration where agents plan, use tools, and self-critique.
 
