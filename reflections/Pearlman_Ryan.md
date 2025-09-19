@@ -36,7 +36,7 @@ This research paper followed an experiment regarding AI-tutors in multiple real 
 - Students can use AI tutors to cheat or as a crutch instead of properly learning the materials
 - AI tutors make mistakes often, and students seem to be taking answers directly from the AI even if they are incorrect answers rather than carefully reading through and making sure the AI doesn’t make any mistakes in its work
 
-1 Concrete idea this inspires for my project:
+### 1 Concrete idea this inspires for my project:
 - We will implement our AI in such a way that it acts as a true tutor to the students, encouraging them to solve problems on their own, rather than something they can simply get an answer out of. 
 
 ## A Multi-Dimensional Approach to Tutor Training with Emerging Technologies
