@@ -5,7 +5,16 @@
 <!-- Project banner -->
 <img width="220px" alt="AI Tutor Logo" src="https://raw.githubusercontent.com/your-org/your-repo/main/.github/images/aitutor-logo.svg">
 
-# ✨ **AI Tutor**  
+# ✨ **NOODEIA**  
+
+**N**ode-based
+**O**ptimized
+**O**rchestration
+**D**esign for 
+**E**ducational 
+**I**ntelligence 
+**A**rchitecture
+
 *Making learning addictive in the best possible way*
 
 [![License](https://img.shields.io/badge/license-Apache_2.0-red?style=for-the-badge)](LICENSE) 
