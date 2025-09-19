@@ -115,7 +115,7 @@ Bastani, Hamsa and Bastani, Osbert and Sungu, Alp and Ge, Haosen and KabakcÄ±, Ã
 
 Jiang, Y.-H., Lu, Y., Dai, L., Wang, J., Li, R., & Jiang, B. (2025). Agentic Workflow for Education: Concepts and Applications. arXiv [Cs.CY]. Retrieved from http://arxiv.org/abs/2509.01517
 
-- The paper redefines agentic AI as something beyond simple Q&A interactions. It is a fundamental shift to a non-linear orchestration where agents plan, use tools, and self-critique.
+- The paper redefines agentic AI as something beyond simple Q&A interactions. It is a fundamental shift to a nonlinear cooperative systems where agents plan, use tools, and self-critique.
 
 - By adopting this multi-agent with division of labor, we aim to implement a muti-agent system for problem solving, question writing, and explanation generation and we hope to achieve an increase in accuracy and explanation quality.
 
