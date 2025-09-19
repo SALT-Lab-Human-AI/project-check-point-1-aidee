@@ -119,9 +119,7 @@ This is our proposed muti-agent workflow
 
 ## 🤝 Contributions
 
-Qiran Hu
-
-- Completed the following tasks
+Qiran Hu completed the following tasks
 
     - 4 research papers and reflections
     - The Github README page
@@ -133,8 +131,7 @@ Qiran Hu
 
 - Maintaining the Github page and fixing minor issues
 
-Tony Yu
-- Completed the following tasks
+Tony Yu completed the following tasks
 
     - 2 research papers and reflections
     - Your proposed approach and why it will improve on prior art
@@ -142,9 +139,7 @@ Tony Yu
 
 - Creating a new memory framework for the AI tutor
 
-Ryan Pearlman
-
-- Completed the following tasks
+Ryan Pearlman completed the following tasks
 
     - 2 research papers and reflections
     - Problem statement and why it matters
@@ -153,9 +148,7 @@ Ryan Pearlman
 
 - Enhancing the design and workflow of app in coming checkpoints
 
-Rosie Xu
-
-- Completed the following tasks
+Rosie Xu completed the following tasks
 
     - 2 research papers and reflections
     - Competitive landscape: existing systems/tools and their shortcomings
