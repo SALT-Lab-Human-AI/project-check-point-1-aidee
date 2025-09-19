@@ -93,17 +93,19 @@ Qiran Hu will be working on developing the new architecture of the AI tutor
 - Designing the muti-agent workflow and developing graph-based structure
 - Maintaining the Github page and fixing minor issues
 
-Tony Yu will be working on 
+Tony Yu:
 - 
 - 
 
-Ryan Pearlman will be working on 
+Ryan Pearlman: 2 Research papers and reflections, problem & importance and initial risks & mitigation sections of proposal. 
 - 
 - 
 
-Rosie Xu will be working on 
+Rosie Xu:
 - 
 - 
+
+Qiran Hu:
 
 ---
 
