@@ -52,7 +52,6 @@ Our tool needs to work for four very different groups, each with their own chall
 
 | 👥 **User** | 🏆 **Primary Goal** | 🔧 **What We Provide** |
 |-------------|--------------------|------------------------|
-| **Young kids (K-5)** | Fun, guided learning | Game-like interface with voice input |
 | **Middle schoolers** | Homework help, improving confidence | Socratic hints and Streak bonuses |
 | **High schoolers** | Engaging learning | Challenge modes with boss battles |
 | **Parents** | Demonstrate real progress | Weekly achievement reports |
