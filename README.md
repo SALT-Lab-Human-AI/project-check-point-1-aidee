@@ -129,14 +129,12 @@ This enhanced muti-agent workflow provides several advantages over simpler tutor
 
 This is our proposed MEGRAG architecture
 
-$$
-\boxed{
+$$\boxed{
 \mathrm{Score_{memory}}
 = S\,(1 - r_{\mathrm{semantic}})^{\,t_{\mathrm{semantic}}}
 + E\,(1 - r_{\mathrm{episodic}})^{\,t_{\mathrm{episodic}}}
 + P\,(1 - r_{\mathrm{procedural}})^{\,t_{\mathrm{procedural}}}
-}
-$$
+}$$
 
 where $S$ is the semantic memory, $t_{\text{semantic}}$ is the hours passed since the semantic memory in the retriever was last accessed rather than created, $E$ is the episodic memory, $t_{\text{episodic}}$ is the hours passed since the episodic memory in the retriever was last accessed rather than created, $P$ is procedural memory, and $t_{\text{procedural}}$ is the hours passed since the procedural memory in the retriever was last accessed rather than created.
 
@@ -145,6 +143,9 @@ where $S$ is the semantic memory, $t_{\text{semantic}}$ is the hours passed sinc
 | Semantic    | Facts          | Things I learned in school | Facts about a user  |
 | Episodic    | Experiences    | Things I did               | Past agent actions  |
 | Procedural  | Instructions   | Instincts or motor skills  | Agent system prompt |
+
+
+
 
 Our platform represents a fundamental shift from generic AI tutoring systems to a specialized, educationally-grounded architecture designed specifically for K-12 mathematics learning. Rather than deploying monolithic language models that treat educational interactions as general conversations, we are developing a heterogeneous system where specialized small language models handle distinct educational tasks with greater efficiency and accuracy.
 
