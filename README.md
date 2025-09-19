@@ -81,7 +81,8 @@ Perplexity is good at citing sources, but it's not a true tutor: it doesn't have
 
 ## 📚 Literature Review
 
-Qiran Hu
+Qiran Hu 
+
 - 
 - 
 
@@ -92,8 +93,12 @@ Tony Yu:
 Ryan Pearlman: I read a paper about researchers who put an AI, an AI tutor with special prompts, and no AIs into three math classrooms and compared test results to each other. The results showed students learned much better with a tutor who guides them instead of giving the answers, but students without a special AI tutor performed the same on standardized tests than ones with the specialized tutor. We will make sure that our AI tutor does not give answers away as that seems to make students use the AI as a crutch and perform worse overall.
 
 Rosie Xu:
-- 
-- 
+
+[Agentic Workflow for Education: Concepts and Applications](https://arxiv.org/abs/2509.01517)
+
+- The paper redefines agentic AI as something beyond simple Q&A interactions. It is a fundamental shift to a non-linear orchestration where agents plan, use tools, and self-critique.
+
+- By adopting this multi-agent with division of labor, we aim to implement a muti-agent system for problem solving, question writing, and explanation generation and we hope to achieve an increase in accuracy and explanation quality.
 
 ## 🚀 Initial Concept and Value Proposition
 

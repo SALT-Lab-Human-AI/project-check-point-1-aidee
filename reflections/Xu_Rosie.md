@@ -26,34 +26,25 @@
 
 ### Summary
 
-The paper argues that today’s LLM use in education is too linear (prompt → answer) and proposes an Agentic Workflow for Education (AWE) with four components: self-reflection, tool invocation, task planning, and multi-agent collaboration. It grounds AWE in a von Neumann–style multi-agent framework that maps processor/memory/controller/I-O to educational task decomposition, reflection/memory, control, and tools. The authors outline four application domains—integrated learning environments, personalized AI-assisted learning, simulation-based experimentation, and data-driven decision-making. A case study on automated math test generation finds AWE-generated items statistically comparable to real exam questions and better than GPT-4 on some dimensions (e.g., option rationality, stem coherence). Overall, they claim AWE can reduce teacher workload while improving instructional quality.
-  
+This paper criticizes the linear prompt to answer model in educational AI and introduces the Agentic Workflow for Education (AWE), which is a framework built on self-reflection, tool use, task planning, and multi-agent collaboration. The authors ground AWE in a von Neumann-style architecture, mapping computational components to educational functions like task decomposition and reflection. A case study on automated math test generation demonstrates that AWE can produce items comparable to real exam questions and superior to GPT-4 on metrics like option rationality, suggesting it can enhance instructional quality while reducing teacher workload.
 
 ### Key Insights
 
-“Agentic” ≠ longer prompts: it’s non-linear orchestration where agents plan, act with tools, and self-critique—a different interaction paradigm than Q&A.
+The paper redefines the term agentic as a paradigm shift toward a non-linear orchestration in which agents autonomously plan, utilize tools, and engage in self-critique, thereby transcending simplistic question and answer interactions.
 
+It introduces the von Neumann-style Multi-Agent System (vN-MAS) as a powerful mental model for designing educational AI, mapping the processor to task decomposition, memory to reflection, the controller to planning, and I/O to tool calls.
 
-The vN-MAS mapping is a nice mental model to design systems: processor→task decomposition, memory→reflection, controller→planning, I/O→tool calls. 
-  
-
-Multi-agent “division of labor” + reflective loops can yield human-comparable assessment items and beat single-model baselines on specific metrics. 
-
-  
+The research provides evidence that a multi-agent with reflective loops can produce assessment items that are comparable to human-created ones and outperform single-model baselines on specific quality metrics.
 
 ### Critical Limitations and Risks
 
-Evidence leans on a single primary case study (math item generation); there’s limited classroom learning-outcome validation and external replication. [](https://www.arxiv.org/pdf/2509.01517)
+The primary limitation is the study's reliance on a single case study (math item generation) for evidence, with no validation of its impact on actual classroom learning outcomes or external replication.
 
-  
-
-Complexity & governance risk: multi-agent + tool-calling stacks increase cost/latency and create more surfaces for privacy/safety/control failures (inference for deployment, not directly tested here).
-
-  
+A significant risk lies in the increased complexity and governance challenges of multi-agent, tool-calling systems. These architectures introduce higher costs and latency and expand the potential for privacy, safety, and control failures, which were not directly tested in the study.
 
 ### Application to Our Project
 
-CP2 4-Agent Micro-Pipeline. Step 1: Break down the problem into steps and create a checklist for final verification. Step 2: Gather resources: Extract key points and example problems from our knowledge graph/notes. Step 3: Solve + self-check: Provide the answer and quickly verify (substitute values, check units, etc.). If errors occur, only modify that specific part. Step 4: Explain: Write the process as clear, step-by-step instructions while providing 3 distractors that “look like real answers,” addressing common pitfalls. We'll evaluate this pipeline across three tasks—problem-solving, question-writing (including distractors), and explanation-writing—handling dozens to hundreds of examples per category. Evaluation criteria: Accuracy, clarity of explanation, and whether distractors are “confusing but not misleading.” Also note approximate time and resource costs. The goal is straightforward: achieve a modest accuracy boost (around 8–12 percentage points), deliver clearer explanations with more professional distractors, while keeping speed and costs under control.
+Inspired by the AWE framework, we will implement a four-agent micro-pipeline for problem-solving, question-writing, and explanation generation. This pipeline will explicitly separate tasks: one agent for planning, one for resource gathering from our knowledge graph, one for solving and self-checking, and a final one for explaining the solution and generating distractors. By adopting this multi-agent with division of labor, we aim to achieve an increase in accuracy and explanation quality while controlling for cost and speed.
 
   
 
