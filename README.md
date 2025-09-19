@@ -120,13 +120,13 @@ The platform addresses critical limitations identified in current AI tutoring sy
 
 This is our proposed muti-agent workflow 
 
-<img width="1000px" alt="AI Tutor Logo" src="./additional items/workflow.png">
+<img width="800px" alt="AI Tutor Logo" src="./additional items/workflow.png">
 
 ---
 
 ## 🤝 Team Contributions
 
-**Qiran Hu**
+### Qiran Hu
 
 Completed the following tasks
 
@@ -140,7 +140,7 @@ Upcoming tasks
 - Designing the muti-agent workflow and developing graph-based structure for better retrieval system
 - Maintaining the Github page and fixing minor issues
 
-**Tony Yu**
+### Tony Yu
 
 Completed the following tasks
 
@@ -152,7 +152,7 @@ Upcoming tasks
 
 - Creating a new memory framework for the AI tutor
 
-**Ryan Pearlman**
+### Ryan Pearlman
 
 Completed the following tasks
 
@@ -165,7 +165,7 @@ Upcoming tasks
 
 - Enhancing the design and workflow of app in coming checkpoints
 
-**Rosie Xu**
+### Rosie Xu
 
 Completed the following tasks
 
