@@ -59,21 +59,21 @@ Here are the BibTeX citations of the relevant research papers that we found:
 
 }
 
-4. @misc{belcak2025smalllanguagemodelsfuture,
+4. @misc{zhang2024surveymemorymechanismlarge,
 
-      title={Small Language Models are the Future of Agentic AI},
+      title={A Survey on the Memory Mechanism of Large Language Model based Agents}, 
 
-      author={Peter Belcak and Greg Heinrich and Shizhe Diao and Yonggan Fu and Xin Dong and Saurav Muralidharan and Yingyan Celine Lin and Pavlo Molchanov},
+      author={Zeyu Zhang and Xiaohe Bo and Chen Ma and Rui Li and Xu Chen and Quanyu Dai and Jieming Zhu and Zhenhua Dong and Ji-Rong Wen},
 
-      year={2025},
+      year={2024},
 
-      eprint={2506.02153},
+      eprint={2404.13501},
 
       archivePrefix={arXiv},
 
       primaryClass={cs.AI},
 
-      url={https\://arxiv.org/abs/2506.02153},
+      url={https://arxiv.org/abs/2404.13501}, 
 
 }
 
@@ -149,21 +149,21 @@ Here are the BibTeX citations of the relevant research papers that we found:
 
 }
 
-9. @misc{zhang2024surveymemorymechanismlarge,
+9. @misc{packer2024memgptllmsoperatingsystems,
 
-      title={A Survey on the Memory Mechanism of Large Language Model based Agents}, 
+      title={MemGPT: Towards LLMs as Operating Systems}, 
 
-      author={Zeyu Zhang and Xiaohe Bo and Chen Ma and Rui Li and Xu Chen and Quanyu Dai and Jieming Zhu and Zhenhua Dong and Ji-Rong Wen},
+      author={Charles Packer and Sarah Wooders and Kevin Lin and Vivian Fang and Shishir G. Patil and Ion Stoica and Joseph E. Gonzalez},
 
       year={2024},
 
-      eprint={2404.13501},
+      eprint={2310.08560},
 
       archivePrefix={arXiv},
 
       primaryClass={cs.AI},
 
-      url={https://arxiv.org/abs/2404.13501}, 
+      url={https://arxiv.org/abs/2310.08560}, 
 
 }
 
@@ -183,14 +183,4 @@ Here are the BibTeX citations of the relevant research papers that we found:
 
       url={https://arxiv.org/abs/2210.03629}, 
 
-}
-
-11. @misc{packer2024memgptllmsoperatingsystems,
-      title={MemGPT: Towards LLMs as Operating Systems}, 
-      author={Charles Packer and Sarah Wooders and Kevin Lin and Vivian Fang and Shishir G. Patil and Ion Stoica and Joseph E. Gonzalez},
-      year={2024},
-      eprint={2310.08560},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2310.08560}, 
 }
