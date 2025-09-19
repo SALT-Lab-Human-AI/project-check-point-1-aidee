@@ -27,13 +27,13 @@
 ---
 
 ## 📑 Table of Contents
-1. [Problem Statement and Why It Matters](#problem-statement-and-why-it-matters)  
-2. [Target Users and Core Tasks](#target-users-and-core-tasks)  
-3. [Competitive Landscape and AI Limitations](#competitive-landscape-and-ai-limitations)  
-4. [Initial Concept and Value Proposition](#initial-concept-and-value-proposition)  
-5. [Contributions](#contributions)  
-6. [Getting Started](#getting-started)  
-7. [License](#license)  
+1. [Problem Statement and Why It Matters](#-problem-statement-and-why-it-matters)  
+2. [Target Users and Core Tasks](#-target-users-and-core-tasks)  
+3. [Competitive Landscape and AI Limitations](#-competitive-landscape-and-ai-limitations)
+4. [Literature Review](#-literature-review)
+5. [Initial Concept and Value Proposition](#-initial-concept-and-value-proposition)  
+6. [Contributions](#-contributions)  
+7. [License](#-license)  
 
 ---
 
