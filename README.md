@@ -47,7 +47,7 @@ Although places like [Two By Two Learning Center](https://www.twobytwolearningce
 
 ## 🎯 Target Users and Core Tasks
 
-Our tool needs to work for four very different groups, each with their own challenges. 
+Our tool needs to work for four very different stakeholders, each with their own challenges. 
 
 * **Middle school students** are old enough to use technology but still need guidance. They're mainly looking for homework help and confidence boosters, which an AI tutor can provide. 
 
@@ -70,11 +70,11 @@ Our tool needs to work for four very different groups, each with their own chall
 
 Khanmigo is a $4-per-month GPT-4 tutoring tool with content integrated from Khan Academy. While it fits in classroom settings, it has limited cross-platform usability and lacks long-term personalization. 
 
-General large language model chat tutors (ChatGPT, Gemini) can quickly explain answer, but struggle with step-by-step instruction—they fail to identify errors, provide follow-up guidance, and may even agree with students' incorrect answers.
+Meanwhile, general large language model chat tutors (ChatGPT, Gemini) can quickly and somewhat accurately explain answers, but struggle with step-by-step instructions. They fail to identify errors, provide follow-up guidance, and may even agree with students' incorrect answers.
 
-Duolingo has good motivation through game-like loops, but it's core focus is language learning. It hasn't been adapted for math tutoring—lacking knowledge graphs and verification step-checking. 
+Duolingo does a good job at motivating their users through fun games and a leveling system, but its core focus is on language learning, not math. Duolingo has not been adapted for math tutoring. It also lacks knowledge graphs and verification step-checking. 
 
-Perplexity is good at citing sources, but it's not a true tutor: it doesn't have a student model or provide “next steps” guidance.
+Lastly, Perplexity is good at citing sources, but it's not a true tutor: it doesn't have a student model or provide step-by-step guidance.
 
 ## 📚 Literature Review Highlights
 
@@ -144,7 +144,9 @@ This enhanced muti-agent workflow provides several advantages over simpler tutor
 **M**emory
 **E**nhanced
 **G**raph
-**RAG**
+**R**etrieval
+**A**ugmented
+**G**eneration
 
 This is our proposed MEGRAG architecture
 

@@ -10,17 +10,17 @@ Although places like [Two By Two Learning Center](https://www.twobytwolearningce
 
 ### Khanmigo (Khan Academy)
 
-[Khanmigo](https://www.khanmigo.ai/) is an AI tutor tightly integrated with Khan Academy’s content and tools, offered at $4/month for learners and parents (free for teachers), and [powered by GPT-4](https://www.khanmigo.ai/parents?utm_source=chatgpt.com). Its focus on Khan’s curriculum and classroom workflows is a strength for alignment with assignments and teacher dashboards, but it also means limited cross-platform generalization and restricted long-term, cross-session personalization relative to a purpose-built memory layer. Like other LLM-based tutors, it can also inherit general hallucination risks, so upstream validation/guardrails remain important. 
+[Khanmigo](https://www.khanmigo.ai/) is an AI tutor tightly integrated with Khan Academy's content, offered at $4/month for learners and parents, and free for teachers. It's [powered by GPT-4](https://www.khanmigo.ai/parents?utm_source=chatgpt.com). The model's focus on Khan Academy's curriculum is helpful for assignments directly related to Khan Academy's, but creates a lack of generalization or broader expansion with the model. This may also mean limited personalization for the model as it's built just for one set of tasks. Like other LLMs, there is a risk of hallucination, so guardrails to maintain model accuracy remain important. 
 
-### General LLM conversational tutors (ChatGPT, Gemini, etc.)
+### Popular LLM conversational tutors (ChatGPT, Gemini, etc.)
 
-General LLMs are great at quickly producing step-by-step explanations across many topics, but evaluations that only check the final answer tend to overstate their tutoring utility (Weitekamp, Siddiqui, & MacLellan, 2025). In step-level classroom tasks—flagging an incorrect action, giving the next correct step, and providing targeted hints—LLMs remain unstable (incorrect-action labeling ~chance; next-step accuracy ≈ 52–70%) (Weitekamp et al., 2025). They can also exhibit sycophancy—agreeing with a user’s mistaken belief rather than correcting it—documented across RLHF-trained assistants and measured in multiple studies (Sharma et al., 2023; Malmqvist, 2024).  
+Popular LLMs, at first use, seem fantastic in a wide array of subjects for giving in-depth responses. However, models like these that simply give the answer to a question when prompted make for worse tutors and instead become a sort of crutch for students (Weitekamp, Siddiqui, & MacLellan, 2025). In a good classroom, step-by-step instructions will be given and incorrect steps will be guided in the right direction. LLMs can also exhibit sycophancy—agreeing with a user’s mistaken belief rather than correcting it. This has been documented across RLHF-trained assistants and measured in multiple studies (Sharma et al., 2023; Malmqvist, 2024).  
   
 ### Duolingo (Max and Core App)
-Duolingo is a gamified learning platform (now expanded into math/music/chess domains) featuring a powerful user retention loop and spaced repetition functionality. Its strengths lie in incentive mechanisms and polished user experience, but it remains domain-specific (language-first), requires payment to unlock AI features, and is not designed for step-by-step math tutoring or cross-session concept modeling. For our application scenario (K-12 math), Duolingo lacks the required foundational knowledge graph and validated step-checking capabilities. (Gap: Domain adaptability and pedagogical depth)
+Duolingo is a gamified learning platform (now expanded into math/music/chess domains) featuring a powerful user retention loop and spaced repetition functionality. Its strengths lie in incentive mechanisms and polished user experience, but it remains domain-specific (language-first), requires payment to unlock AI features, and is not designed for step-by-step math tutoring or cross-session concept modeling. For our application scenario (6-12th grade math), Duolingo lacks the required foundational knowledge graph and validated step-checking capabilities. 
 
 ### Perplexity (Retrieval-Enhanced Chat Engine)
-Perplexity returns answers with embedded citations and enables rapid web verification. This excels in research retrieval and quick synthesis but is unsuitable for tutoring workflows: it lacks persistent student models, step-by-step “next action” guidance, and has limited control over the flattery-based behavior common in reinforcement learning-based tools (Sharma et al., 2023). 
+Perplexity returns answers with embedded citations and enables rapid web verification. This excels in research retrieval and quick synthesis but is unsuitable for tutoring workflows. Perplexity lacks persistent student models, step-by-step “next action” guidance, and has limited control over the flattery-based behavior common in reinforcement learning-based tools (Sharma et al., 2023). 
 
 ---
 
@@ -99,12 +99,13 @@ The proposed MEGRAG and multi-agent architecture represents a comprehensive adva
 
 ## Plan For Checkpoint 2
 
-### Tools to include (Tentative)
+### Tools to reference
 ChatGPT (GPT-5) 
 Microsoft Copilot 
 Perplexity
 Duolingo
-### Scope (what we will validate)
+
+### Scope 
 Do current tools handle step-level tutoring (spot a mistake, give the next step, give a short hint) well?
 Do they hallucinate/agree with wrong student claims?
 Where are the UX/cost/latency pain points that our design fixes?
