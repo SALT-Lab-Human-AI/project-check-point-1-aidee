@@ -3,7 +3,7 @@
 <a name="readme-top"></a>
 
 <!-- Project banner -->
-<img width="220px" alt="AI Tutor Logo" src="./additional items/logo.png">
+<img width = "220px" alt = "AI Tutor Logo" src = "./additional items/logo.png">
 
 # ✨ **NOODEIA**  
 
@@ -109,7 +109,8 @@ The platform addresses critical limitations identified in current AI tutoring sy
 **Proposed architecture**
 
 This is our proposed muti-agent workflow 
-<img width="220px" alt="AI Tutor Logo" src="./additional items/workflow.png">
+
+<img width="1000px" alt="AI Tutor Logo" src="./additional items/workflow.png">
 
 ---
 
