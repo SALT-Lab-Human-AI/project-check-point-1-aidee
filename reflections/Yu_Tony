@@ -1,0 +1,30 @@
+#### MemGPT: Towards LLMs as Operating Systems
+
+@misc{packer2024memgptllmsoperatingsystems,
+      title={MemGPT: Towards LLMs as Operating Systems}, 
+      author={Charles Packer and Sarah Wooders and Kevin Lin and Vivian Fang and Shishir G. Patil and Ion Stoica and Joseph E. Gonzalez},
+      year={2024},
+      eprint={2310.08560},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2310.08560}, 
+}
+
+**Summary**
+ MemGPT tackles the core problem that LLMs have small context windows and forget long chats or long documents. It adds an OS-style memory system: a tight **main context** (system rules, a small working pad, and a FIFO history) plus **external stores** for full logs (recall) and distilled notes (archival), all controlled by functions the model can call itself. 
+
+With a **queue manager** and **function executor**, the model moves info in/out of context, writes summaries when space is low, and retrieves past details on demand. In tests, MemGPT boosted long-chat consistency versus the same base models without it, and it handled multi-document QA by paging through many sources. 
+
+**Insights.**
+
+1. Separating **recall** (raw history) from **archival** (short notes) lets the model keep both precision and brevity. 
+2. “Memory pressure” warnings prompt the model to compress recent context on its own, not just rely on a fixed summary. 
+3. Function chaining (requesting immediate follow-ups) is key to multi-step retrieval across many documents. 
+
+**Limitations/risks.**
+
+- If the base model is weak at tool use, performance drops (e.g., fewer lookups, stopping early). 
+- Bad summaries or wrong saves to archival can “lock in” mistakes later.
+
+**Idea for My AI Tutor**
+ Use Archival as the student’s **profile + learning log**: store concise facts (courses, goals, common errors, preferred examples), last plan/next step, and mastered skills; keep the full session transcripts in Recall; on each new session, the tutor loads the Archival note to personalize hints, and when “memory pressure” hits, it writes a fresh progress summary back to Archival.
