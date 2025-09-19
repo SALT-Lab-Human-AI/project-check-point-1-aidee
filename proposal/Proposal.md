@@ -26,23 +26,44 @@ Perplexity returns answers with embedded citations and enables rapid web verific
 
 ## Our Proposed Approach and Why It Will Improve On Prior Systems
 
-We keep a main context with three parts: system rules, a small working pad, and an adaptive queue that holds recent turns.
+### Initial Processing and Orchestration
 
-The queue is not FIFO: it ranks items by relevance to the current problem, importance (grades, goals), freshness, and diversity (don’t keep four near-duplicates); low-score items decay and get compressed first. When the queue nears its limit, the tutor gets a warning, writes short summaries to the working pad, and distills stable knowledge to long-term storage.
+The workflow begins when the system receives user input, which typically consists of a student's question or learning request. This input immediately flows to the Orchestral Agent, which serves as the primary conductor of the entire system. The Orchestral Agent performs task classification to understand the nature of the query, determining whether it requires mathematical computation, conceptual explanation, code generation, or other educational support. Based on this classification, the Orchestral Agent makes intelligent routing decisions to engage the appropriate specialized agents.
 
-Archival memory lives in Neo4j: nodes for students, skills, concepts, problems, attempts, errors, and hints; edges track “practiced”, “blocked-by”, “helps-with”, etc. Retrieval is hybrid: fast graph queries (path patterns, neighbors) plus embedding search for similar problems; results are re-inserted into the queue by priority.
+### Multi-Agent Processing Layer
 
-We split memory by type: Fact Memory (stable facts like formulas and the student’s profile), Process Memory (plans and next steps) and Case Memory (worked examples and mistakes).
+Following classification, the Orchestral Agent distributes the task to a suite of specialized agents, shown in the diagram as Agent₁, Agent₂, and Agent₃. Each agent possesses distinct capabilities and domain expertise. For instance, one agent might specialize in mathematical reasoning, another in natural language explanation, and a third in code generation or scientific concepts. These agents operate in parallel or sequence depending on the task requirements, allowing the system to leverage multiple perspectives and approaches simultaneously.
 
-Functions let the tutor promote items (queue → working pad), archive distilled notes (to Neo4j), or recall exact logs when needed. Each session starts by loading a tiny profile summary from Fact/Process Memory, and ends by updating Neo4j with mastered skills, open gaps, and one clear next action.
+### Memory Integration and Context Management
 
-We combine mathematical concept maps (Neo4j) with retrieval mechanisms to ensure each prompt follows authentic prerequisite paths (rather than random guesswork). A dual-memory architecture (long-term retention + conversational context) maintains consistency across sessions while enabling real-time responses. A lightweight step validator (substitution/units/range) filters incorrect answers before students see them, then the tutoring layer transforms validated solutions into child-friendly steps and precise distractors. 
+A critical enhancement in this workflow is the introduction of the Memory Agent, which maintains both Working Memory and Long-term Memory components. The Working Memory stores immediate context about the current conversation, including recent exchanges, partial solutions, and temporary computational results. The Long-term Memory preserves important learning patterns, student preferences, common misconceptions, and successful teaching strategies from previous interactions. This memory system enables the tutor to maintain coherence across extended dialogues and adapt its responses based on accumulated knowledge about effective teaching methods.
 
-vs. Khanmigo: Unconstrained by single-curriculum systems; offers stronger cross-session personalization and foundational knowledge building. 
+### Reasoning and Action Generation
 
-vs. Chat tutoring tools: Designed specifically for step-by-step guidance (prompting next actions, pinpointing error roots) rather than merely providing final answers. 
+The core reasoning occurs within the Thought component, which synthesizes inputs from the specialized agents and memory systems. This reasoning engine evaluates multiple solution pathways and teaching approaches, considering both the immediate query and the broader educational context. Based on this analysis, the system generates specific actions, which might involve querying external tools for computation, retrieving information from the knowledge base, or formulating explanatory content.
 
-vs. Early graph RAG demos: Optimized for after-school scenarios—supports high-speed queries, caching mechanisms, and provides weekly mastery reports for parents and educators.
+### Tool Integration and Knowledge Retrieval
+
+When specialized computation or data retrieval is required, the system engages its Tools component, which includes access to mathematical engines, code interpreters, and scientific calculators. Concurrently, the system can query the Neo4j Graph Database through its ME-GraphRAG interface, which stores structured educational knowledge as an interconnected graph of concepts, prerequisites, and relationships. This graph structure enables the system to understand conceptual dependencies and provide contextually appropriate explanations that build upon the student's existing knowledge.
+
+### Observation and Answer Formation
+
+The Observation component collects and synthesizes results from tool executions and database queries, formatting this information into coherent educational content. These observations feed into the Possible Answer generation phase, where the system constructs candidate responses that address the student's query while adhering to pedagogical best practices.
+
+### Quality Evaluation and Response Validation
+
+The DEANLLM component represents a unified evaluation system that combines deep educational assessment with large language model capabilities. This evaluator examines each possible answer for accuracy, clarity, pedagogical effectiveness, and appropriateness for the student's level. The evaluation process produces a binary classification, routing responses to either Good Answer or Bad Answer categories. Good answers proceed to the output stage, while bad answers trigger a feedback mechanism that returns to the reasoning phase for refinement.
+
+### Feedback Loops and Continuous Improvement
+
+The system incorporates two primary feedback mechanisms. The LLM Feedback loop enables rapid iteration on answer quality, allowing the system to refine responses that initially fail quality checks. The User Feedback loop, indicated by the dashed line from the bottom of the diagram, captures student reactions and learning outcomes, feeding this information back into the Thought component for future interactions. This creates a continuous learning cycle where the system improves its teaching effectiveness over time.
+
+### Final Output Generation
+
+Successfully validated responses proceed to the Output stage, where they are formatted for presentation to the student. The output formatting considers the optimal presentation method for the content type, whether that involves mathematical notation, code blocks, visual diagrams, or structured explanations. The system ensures that the final output maintains consistency with previous interactions stored in the memory system, creating a coherent and personalized learning experience.
+
+###
+
 
 ---
 

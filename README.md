@@ -104,6 +104,21 @@ Jiang, Y.-H., Lu, Y., Dai, L., Wang, J., Li, R., & Jiang, B. (2025). Agentic Wor
 
 ## 🚀 Initial Concept and Value Proposition
 
+### Proposed muti-agent workflow
+
+This is our proposed muti-agent workflow 
+
+<img width = "850px" alt = "Proposed workflow" src = "./additional items/workflow.png">
+
+#### System Overview
+
+This enhanced muti-agent workflow provides several advantages over simpler tutoring systems. The multi-agent approach allows for specialized agent to assist students with specific needs. The memory system enables personalized responses that fit into individual learning patterns. The comprehensive evaluation framework ensures high quality outputs, which significantly reduces the hallucinations. With the integration of structured knowledge graphs, this muti-agent workflow creates a personalized AI tutoring platform.
+
+### Proposed ME-GraphRAG architecture
+
+
+
+
 Our platform represents a fundamental shift from generic AI tutoring systems to a specialized, educationally-grounded architecture designed specifically for K-12 mathematics learning. Rather than deploying monolithic language models that treat educational interactions as general conversations, we are developing a heterogeneous system where specialized small language models handle distinct educational tasks with greater efficiency and accuracy.
 
 The foundation of our approach rests on three interconnected innovations. First, we employ a Neo4j knowledge graph that encodes the structural relationships between mathematical concepts, prerequisite dependencies, and learning progressions. This graph architecture ensures that the system understands not merely that fractions exist as a topic, but that mastery requires prior understanding of division, which itself builds upon multiplication and addition fundamentals. This structural knowledge enables pedagogically sound instruction sequencing that adapts to each student's actual conceptual foundation.
@@ -116,11 +131,6 @@ For Two By Two Learning Center, this architecture delivers measurable operationa
 
 The platform addresses critical limitations identified in current AI tutoring systems through multiple quality assurance mechanisms. We employ specialized evaluation models to assess feedback quality across pedagogical dimensions before delivery to students, preventing the propagation of hallucinations or incorrect mathematical guidance. The GraphRAG architecture ensures that explanations remain grounded in verified educational content while maintaining conceptual coherence across related topics. This multi-layered validation approach protects educational integrity while enabling the personalized, adaptive instruction that makes AI tutoring transformative rather than merely supplemental.
 
-**Proposed architecture**
-
-This is our proposed muti-agent workflow 
-
-<img width = "850px" alt = "Proposed Architecture" src = "./additional items/workflow.png">
 
 ---
 
