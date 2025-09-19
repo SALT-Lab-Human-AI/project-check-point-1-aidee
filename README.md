@@ -221,6 +221,10 @@ Upcoming tasks
 
 ---
 
+## Inspiration 
+
+The logo image is inspired by [FREEP!K](https://www.freepik.com/premium-vector/tree-with-lines-dots-vector-design-ai-generate_328598955.htm)
+
 ## 📝 License
 
 Distributed under the **Apache 2.0** License. 
