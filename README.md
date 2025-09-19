@@ -68,6 +68,9 @@ Our tool needs to work for four very different groups, each with their own chall
 
 ## 🏁 Competitive Landscape and AI Limitations
 
+...
+
+
 Khanmigo is a $4-per-month GPT-4 tutoring tool with content integrated from Khan Academy. While it fits in classroom settings, it has limited cross-platform usability and lacks long-term personalization. 
 
 General large language model chat tutors (ChatGPT, Gemini) can quickly explain answer, but struggle with step-by-step instruction—they fail to identify errors, provide follow-up guidance, and may even agree with students' incorrect answers.
@@ -148,7 +151,7 @@ Ryan Pearlman
     - Target users and core tasks
     - Initial risks & mitigation (privacy, bias, safety, reliability)
 
-- Working on the design and workflow of app in coming checkpoints
+- Enhancing the design and workflow of app in coming checkpoints
 
 Rosie Xu
 
@@ -158,7 +161,7 @@ Rosie Xu
     - Competitive landscape: existing systems/tools and their shortcomings
     - Plan for Checkpoint 2 validation via prompting (see CP2)
 
-- Working on analyzing different existing tools and their limitations
+- Analyzing different existing tools and their limitations
 
 ---
 
