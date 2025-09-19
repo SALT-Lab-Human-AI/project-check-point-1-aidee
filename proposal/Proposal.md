@@ -26,13 +26,13 @@ Perplexity returns answers with embedded citations and enables rapid web verific
 
 ## Our Proposed Approach and Why It Will Improve On Prior Systems
 
-### Proposed muti-agent workflow
+### Proposed Muti-Agent Workflow
 
 This is our proposed muti-agent workflow 
 
 <img width = "850px" alt = "Proposed workflow" src = "./additional items/workflow.png">
 
-### Proposed MEGRAG architecture
+### Proposed MEGRAG Architecture
 
 **M**emory
 **E**nhanced

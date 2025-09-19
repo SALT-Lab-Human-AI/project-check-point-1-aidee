@@ -107,7 +107,15 @@ Jiang, Y.-H., Lu, Y., Dai, L., Wang, J., Li, R., & Jiang, B. (2025). Agentic Wor
 
 ## 🚀 Initial Concept and Value Proposition
 
-### Proposed muti-agent workflow
+### Core Concept Overview
+
+The personalized AI tutor represents a fundamental reimagining of educational technology through the integration of orchestrated multi-agent systems with memory-enhanced graph retrieval augmented generation . This system transcends traditional digital learning tools by creating an adaptive educational companion that maintains persistent awareness of individual learning patterns, dynamically adjusts teaching strategies based on accumulated experience, and delivers consistently high-quality educational support across diverse subject domains. The platform operates as an intelligent educational ecosystem rather than a static question-answering service, fundamentally transforming how students engage with complex learning materials.
+
+### Primary Value Proposition
+
+The primary value proposition emerges from the system's ability to provide genuinely personalized education at scale and maintaining the pedagogical sophistication typically associated with expert human tutors. Unlike conventional educational software that delivers uniform content regardless of individual needs, this system creates unique learning pathways for each student based on their specific knowledge gaps. Through its sophisticated memory architecture and continuous adaptation mechanisms, the platform delivers educational experiences that evolve with each student's progress, creating compound improvements in learning efficiency over time. This translates directly into reduced time-to-mastery for complex subjects and improved retention rates for learned material.
+
+### Proposed Muti-Agent Workflow
 
 This is our proposed muti-agent workflow 
 
@@ -117,7 +125,7 @@ This is our proposed muti-agent workflow
 
 This enhanced muti-agent workflow provides several advantages over simpler tutoring systems. The multi-agent approach allows for specialized agent to assist students with specific needs. The memory system enables personalized responses that fit into individual learning patterns. The comprehensive evaluation framework ensures high quality outputs, which significantly reduces the hallucinations. With the integration of structured knowledge graphs, this muti-agent workflow creates a personalized AI tutoring platform.
 
-### Proposed MEGRAG architecture
+### Proposed MEGRAG Architecture
 
 **M**emory
 **E**nhanced
@@ -139,21 +147,6 @@ where $S$ is the semantic memory, $t_{\text{semantic}}$ is the hours passed sinc
 #### Architecture Overview
 
 The proposed scoring function contains three types of memory, which are semantic, episodic, and procedural. Similar to human memory system, each memory has its own exponential time decay rate. By assigning a faster decay to episodic memory with slower decays to semantic and procedural memory prioritizes recent student struggles without rapidly discarding current knowledge, which creates more personalized RAG pipelines.
-
-#### 
-
-Our platform represents a fundamental shift from generic AI tutoring systems to a specialized, educationally-grounded architecture designed specifically for K-12 mathematics learning. Rather than deploying monolithic language models that treat educational interactions as general conversations, we are developing a heterogeneous system where specialized small language models handle distinct educational tasks with greater efficiency and accuracy.
-
-The foundation of our approach rests on three interconnected innovations. First, we employ a Neo4j knowledge graph that encodes the structural relationships between mathematical concepts, prerequisite dependencies, and learning progressions. This graph architecture ensures that the system understands not merely that fractions exist as a topic, but that mastery requires prior understanding of division, which itself builds upon multiplication and addition fundamentals. This structural knowledge enables pedagogically sound instruction sequencing that adapts to each student's actual conceptual foundation.
-
-Second, we implement a dual-memory personalization system that distinguishes between persistent student characteristics and session-specific learning context. The long-term memory component, integrated with our Neo4j graph, maintains comprehensive profiles of topic mastery levels, identified misconceptions, and successful learning strategies for each student. The working memory tracks immediate problem-solving states, recent hints provided, and emotional indicators, enabling real-time adaptation without losing sight of broader learning objectives.
-
-Third, our gamification framework transforms routine practice into engaging progression systems modeled after successful educational game design principles. Students earn Knowledge Crystals for concept mastery, unlock Learning Worlds as they advance through curriculum sequences, and customize their AI tutor avatars using earned points. The system implements streak bonuses for consistent practice, collaborative challenges for study groups, and complex boss battles that require synthesis of multiple concepts. These mechanics create intrinsic motivation while maintaining educational integrity through careful alignment with learning objectives.
-
-For Two By Two Learning Center, this architecture delivers measurable operational advantages. Tutors receive an AI assistant with institutional memory that builds upon previous sessions rather than approaching each interaction as isolated events. The system provides real-time diagnostic dashboards identifying specific conceptual gaps across student cohorts, enabling proactive intervention before misconceptions solidify. Parents receive achievement reports formatted as engaging progress narratives rather than traditional grade summaries, increasing engagement with their children's learning journey.
-
-The platform addresses critical limitations identified in current AI tutoring systems through multiple quality assurance mechanisms. We employ specialized evaluation models to assess feedback quality across pedagogical dimensions before delivery to students, preventing the propagation of hallucinations or incorrect mathematical guidance. The GraphRAG architecture ensures that explanations remain grounded in verified educational content while maintaining conceptual coherence across related topics. This multi-layered validation approach protects educational integrity while enabling the personalized, adaptive instruction that makes AI tutoring transformative rather than merely supplemental.
-
 
 ---
 
