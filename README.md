@@ -62,11 +62,14 @@ Our tool needs to work for four very different groups, each with their own chall
 
 ## 🏁 Competitive Landscape and AI Limitations
 
-We've found that current AI tutoring tools aren't always as effective as needed, or have other flaws. For example, Khan Academy's Khanmigo costs $4/month, and can solve many complex equations. However, many AIs lack long-term memory and recall, making it difficult to bring up past lessons and integrate them into current ones.
 
-Another problem with AI tutors is AI hallucination. An AI hallucination involves an AI tutor confidently giving a student an incorrect answer. In a disagreement, this may lead to the student believing their own correct work is wrong, decreasing confidence. A [July 2024 research paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4895486) showed that students who were given an AI tutor to study with and proceeded to have that tutor taken away actually did worse on tests than students who never had an AI tutor at all.
+Khanmigo is a $4-per-month GPT-4 tutoring tool with content integrated from Khan Academy. While it fits in classroom settings, it has limited cross-platform usability and lacks long-term personalization. 
 
----
+General large language model chat tutors (ChatGPT, Gemini) can quickly explain answer, but struggle with step-by-step instruction—they fail to identify errors, provide follow-up guidance, and may even agree with students' incorrect answers.
+
+Duolingo has good motivation through game-like loops, but it's core focus is language learning. It hasn't been adapted for math tutoring—lacking knowledge graphs and verification step-checking. 
+
+Perplexity is good at citing sources, but it's not a true tutor: it doesn't have a student model or provide “next steps” guidance.
 
 ## 🚀 Initial Concept and Value Proposition
 
@@ -90,15 +93,15 @@ Qiran Hu will be working on developing the new architecture of the AI tutor
 - Designing the muti-agent workflow and developing graph-based structure for better retrieval system
 - Maintaining the Github page and fixing minor issues
 
-Tony Yu will be working on 
+Tony Yu:
 - 
 - 
 
-Ryan Pearlman will be working on 
-- 
-- 
+Ryan Pearlman: 2 Research papers and reflections, 
+- Completed 2 research papers and reflections, problem & importance and initial risks & mitigation sections of proposal.
+- Will work on design and workflow of app in coming checkpoints.
 
-Rosie Xu will be working on 
+Rosie Xu:
 - 
 - 
 
