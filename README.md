@@ -3,11 +3,11 @@
 <a name="readme-top"></a>
 
 <!-- Project banner -->
-<img width="220px" alt="AI Tutor Logo" src="https://raw.githubusercontent.com/your-org/your-repo/main/.github/images/aitutor-logo.svg">
+<img width="220px" alt="AI Tutor Logo" src="./additional items/logo.png">
 
 # ✨ **NOODEIA**  
 
-**N**ode-based
+**N**ode
 **O**ptimized
 **O**rchestration
 **D**esign for 
@@ -105,6 +105,11 @@ Third, our gamification framework transforms routine practice into engaging prog
 For Two By Two Learning Center, this architecture delivers measurable operational advantages. Tutors receive an AI assistant with institutional memory that builds upon previous sessions rather than approaching each interaction as isolated events. The system provides real-time diagnostic dashboards identifying specific conceptual gaps across student cohorts, enabling proactive intervention before misconceptions solidify. Parents receive achievement reports formatted as engaging progress narratives rather than traditional grade summaries, increasing engagement with their children's learning journey.
 
 The platform addresses critical limitations identified in current AI tutoring systems through multiple quality assurance mechanisms. We employ specialized evaluation models to assess feedback quality across pedagogical dimensions before delivery to students, preventing the propagation of hallucinations or incorrect mathematical guidance. The GraphRAG architecture ensures that explanations remain grounded in verified educational content while maintaining conceptual coherence across related topics. This multi-layered validation approach protects educational integrity while enabling the personalized, adaptive instruction that makes AI tutoring transformative rather than merely supplemental.
+
+**Proposed architecture**
+
+This is our proposed muti-agent workflow 
+<img width="220px" alt="AI Tutor Logo" src="./additional items/workflow.png">
 
 ---
 
