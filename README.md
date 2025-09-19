@@ -133,7 +133,7 @@ The primary value proposition emerges from the system's ability to provide genui
 
 This is our proposed muti-agent workflow 
 
-<img width = "850px" alt = "Proposed workflow" src = "additional items/workflow.png">
+<img width = "850px" alt = "Proposed workflow" src = "./additional items/workflow.png">
 
 #### Workflow Overview
 
