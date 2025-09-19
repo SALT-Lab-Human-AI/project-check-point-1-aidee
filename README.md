@@ -40,8 +40,6 @@ Although places like [Two By Two Learning Center](https://www.twobytwolearningce
 
 Our tool needs to work for four very different groups, each with their own challenges. 
 
-* **Elementary school students** are often not the target audience of AI tutors. It's harder to make a practical tool for this group due to their lower abilities in typing and prompting with good questions. Perhaps a tutor that turns everything into a sort of game would better suit this group. 
-
 * **Middle school students** are old enough to use technology but still need guidance. They're mainly looking for homework help and confidence boosters, which an AI tutor can provide. 
 
 * **High school students** are generally more knowledgeable than their younger peers, being able to ask more complex questions. An AI tutor for this student group will need to be engaging, responsive, and comprehensive. 
