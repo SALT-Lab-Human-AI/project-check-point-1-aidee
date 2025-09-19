@@ -43,7 +43,7 @@ This is our proposed MEGRAG architecture
 
 $$\boxed{\mathrm{Score_{memory}} = S\,(1 - r_{\mathrm{semantic}})^{\,t_{\mathrm{semantic}}} + E\,(1 - r_{\mathrm{episodic}})^{\,t_{\mathrm{episodic}}} + P\,(1 - r_{\mathrm{procedural}})^{\,t_{\mathrm{procedural}}}}$$
 
-where $S$ is the semantic memory, $t_{\text{semantic}}$ is the hours passed since the semantic memory in the retriever was last accessed rather than created, $E$ is the episodic memory, $t_{\text{episodic}}$ is the hours passed since the episodic memory in the retriever was last accessed rather than created, $P$ is procedural memory, and $t_{\text{procedural}}$ is the hours passed since the procedural memory in the retriever was last accessed rather than created.
+where $S$ is the semantic memory, $r_{\text{semantic}}$ is the decay rate for semantic memory, $t_{\text{semantic}}$ is the hours passed since the semantic memory in the retriever was last accessed rather than created, $E$ is the episodic memory, $r_{\text{episodic}}$ is the decay rate for episodic memory, $t_{\text{episodic}}$ is the hours passed since the episodic memory in the retriever was last accessed rather than created, $P$ is procedural memory, $r_{\text{procedural}}$ is the decay rate for procedural memory, and $t_{\text{procedural}}$ is the hours passed since the procedural memory in the retriever was last accessed rather than created.
 
 | Memory Type | What is Stored | Human Example              | Agent Example       |
 | ----------- | -------------- | -------------------------- | ------------------- |
