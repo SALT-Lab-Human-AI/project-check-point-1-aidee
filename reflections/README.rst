@@ -25,4 +25,4 @@ Let's check out `Ryan Pearlman's findings <./Pearlman_Ryan.md>`_!
 
 Let's check out `Rosie Xu's findings <./Xu_Rosie.md>`_!
 
-Let's check out `'s findings <./.md>`_!
+Let's check out `Tony Yu's findings <./Yu_Tony.md>`_!
