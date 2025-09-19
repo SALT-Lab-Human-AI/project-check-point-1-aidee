@@ -87,8 +87,14 @@ Qiran Hu
 - 
 
 Tony Yu:
-- 
-- 
+[MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
+
+Packer, C., Wooders, S., Lin, K., Fang, V., Patil, S. G., Stoica, I., & Gonzalez, J. E. (2024). MemGPT: Towards LLMs as Operating Systems. arXiv [Cs.AI]. Retrieved from http://arxiv.org/abs/2310.08560
+
+- The paper tackles LLMs’ short memory by adding an OS-style, tiered memory: a small main context (system rules, working pad, FIFO queue) plus external recall and archival stores, managed by a queue manager and function executor that move/condense information via function calls and summaries.
+
+- Use Archival as a compact student profile while keeping full transcripts in Recall; have the tutor auto-summarize to Archival when memory pressure warnings appear and reload from these notes at the start of each session.
+
 
 Ryan Pearlman: I read a paper about researchers who put an AI, an AI tutor with special prompts, and no AIs into three math classrooms and compared test results to each other. The results showed students learned much better with a tutor who guides them instead of giving the answers, but students without a special AI tutor performed the same on standardized tests than ones with the specialized tutor. We will make sure that our AI tutor does not give answers away as that seems to make students use the AI as a crutch and perform worse overall.
 
