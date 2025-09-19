@@ -78,7 +78,7 @@ Perplexity is good at citing sources, but it's not a true tutor: it doesn't have
 
 ## 📚 Literature Review Highlights
 
-Qiran Hu:
+### Qiran Hu
 
 [AI-Powered Math Tutoring Platform Research](https://arxiv.org/abs/2507.12484)
 
@@ -88,7 +88,7 @@ Chudziak, J. A., & Kostka, A. (2025). AI-Powered Math Tutoring: Platform for Per
 
 - By implementing a hybrid memory architecture, the knowledge graph could serve as the long term memory component where each concept node has specific attributes such as historical error patterns and identified misconceptions. Since graph relationships naturally represents prerequisite chains and conceptual dependencies, this enables sophisticated reasoning about learning paths.
 
-Tony Yu:
+### Tony Yu
 
 [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
 
@@ -99,7 +99,7 @@ Packer, C., Wooders, S., Lin, K., Fang, V., Patil, S. G., Stoica, I., & Gonzalez
 - Use Archival as a compact student profile while keeping full transcripts in Recall; have the tutor auto-summarize to Archival when memory pressure warnings appear and reload from these notes at the start of each session.
 
 
-Ryan Pearlman: 
+### Ryan Pearlman
 
 [Generative AI Can Harm Learning](http://dx.doi.org/10.2139/ssrn.4895486)
 
@@ -109,7 +109,7 @@ Bastani, Hamsa and Bastani, Osbert and Sungu, Alp and Ge, Haosen and Kabakcı, �
 
 - The results show students learned much better with a tutor who guides them instead of giving the answers, but students without a special AI tutor performed the same on standardized tests than ones with the specialized tutor. We will make sure that our AI tutor does not give answers away as that seems to make students use the AI as a crutch and perform worse overall.
 
-Rosie Xu:
+### Rosie Xu
 
 [Agentic Workflow for Education: Concepts and Applications](https://arxiv.org/abs/2509.01517)
 
