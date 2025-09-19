@@ -68,9 +68,6 @@ Our tool needs to work for four very different groups, each with their own chall
 
 ## 🏁 Competitive Landscape and AI Limitations
 
-...
-
-
 Khanmigo is a $4-per-month GPT-4 tutoring tool with content integrated from Khan Academy. While it fits in classroom settings, it has limited cross-platform usability and lacks long-term personalization. 
 
 General large language model chat tutors (ChatGPT, Gemini) can quickly explain answer, but struggle with step-by-step instruction—they fail to identify errors, provide follow-up guidance, and may even agree with students' incorrect answers.
@@ -116,7 +113,7 @@ This is our proposed muti-agent workflow
 
 <img width = "850px" alt = "Proposed workflow" src = "./additional items/workflow.png">
 
-#### System Overview
+#### Workflow Overview
 
 This enhanced muti-agent workflow provides several advantages over simpler tutoring systems. The multi-agent approach allows for specialized agent to assist students with specific needs. The memory system enables personalized responses that fit into individual learning patterns. The comprehensive evaluation framework ensures high quality outputs, which significantly reduces the hallucinations. With the integration of structured knowledge graphs, this muti-agent workflow creates a personalized AI tutoring platform.
 
@@ -139,8 +136,11 @@ where $S$ is the semantic memory, $t_{\text{semantic}}$ is the hours passed sinc
 | Episodic    | Experiences    | Things I did               | Past agent actions  |
 | Procedural  | Instructions   | Instincts or motor skills  | Agent system prompt |
 
+#### Architecture Overview
 
+The proposed scoring function contains three types of memory, which are semantic, episodic, and procedural. Similar to human memory system, each memory has its own exponential time decay rate. By assigning a faster decay to episodic memory with slower decays to semantic and procedural memory prioritizes recent student struggles without rapidly discarding current knowledge, which creates more personalized RAG pipelines.
 
+#### 
 
 Our platform represents a fundamental shift from generic AI tutoring systems to a specialized, educationally-grounded architecture designed specifically for K-12 mathematics learning. Rather than deploying monolithic language models that treat educational interactions as general conversations, we are developing a heterogeneous system where specialized small language models handle distinct educational tasks with greater efficiency and accuracy.
 
