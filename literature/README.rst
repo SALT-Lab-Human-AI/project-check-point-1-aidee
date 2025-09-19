@@ -184,13 +184,21 @@ Here are the BibTeX citations of the relevant research papers that we found:
       url={https://arxiv.org/abs/2210.03629}, 
 
 }
-11. @misc{packer2024memgptllmsoperatingsystems,
-      title={MemGPT: Towards LLMs as Operating Systems}, 
-      author={Charles Packer and Sarah Wooders and Kevin Lin and Vivian Fang and Shishir G. Patil and Ion Stoica and Joseph E. Gonzalez},
-      year={2024},
-      eprint={2310.08560},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2310.08560}, 
-}
 
+11. @misc{packer2024memgptllmsoperatingsystems,
+
+      title={MemGPT: Towards LLMs as Operating Systems}, 
+
+      author={Charles Packer and Sarah Wooders and Kevin Lin and Vivian Fang and Shishir G. Patil and Ion Stoica and Joseph E. Gonzalez},
+
+      year={2024},
+
+      eprint={2310.08560},
+
+      archivePrefix={arXiv},
+
+      primaryClass={cs.AI},
+
+      url={https://arxiv.org/abs/2310.08560}, 
+
+}
