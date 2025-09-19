@@ -116,21 +116,49 @@ This is our proposed muti-agent workflow
 
 ## 🤝 Contributions
 
-Qiran Hu will be working on developing the new architecture of the AI tutor
+Qiran Hu
+
+- Completed the following tasks
+
+    - 4 research papers and reflections
+    - The Github README page
+    - Open Issues for milestones; assign owners; use Projects/Boards 
+
+- Developing the new architecture for the AI tutor
+
 - Designing the muti-agent workflow and developing graph-based structure for better retrieval system
+
 - Maintaining the Github page and fixing minor issues
 
-Tony Yu:
-- 
-- 
+Tony Yu
+- Completed the following tasks
 
-Ryan Pearlman: 2 Research papers and reflections, 
-- Completed 2 research papers and reflections, problem & importance and initial risks & mitigation sections of proposal.
-- Will work on design and workflow of app in coming checkpoints.
+    - 2 research papers and reflections
+    - Your proposed approach and why it will improve on prior art
+    - Initial concept and value proposition
 
-Rosie Xu:
-- 
-- 
+- Creating a new memory framework for the AI tutor
+
+Ryan Pearlman
+
+- Completed the following tasks
+
+    - 2 research papers and reflections
+    - Problem statement and why it matters
+    - Target users and core tasks
+    - Initial risks & mitigation (privacy, bias, safety, reliability)
+
+- Working on the design and workflow of app in coming checkpoints
+
+Rosie Xu
+
+- Completed the following tasks
+
+    - 2 research papers and reflections
+    - Competitive landscape: existing systems/tools and their shortcomings
+    - Plan for Checkpoint 2 validation via prompting (see CP2)
+
+- Working on analyzing different existing tools and their limitations
 
 ---
 
