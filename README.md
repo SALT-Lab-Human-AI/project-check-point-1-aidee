@@ -77,9 +77,7 @@ Tony Yu:
 - 
 - 
 
-Ryan Pearlman:
-- 
-- 
+Ryan Pearlman: I read a paper about researchers who put an AI, an AI tutor with special prompts, and no AIs into three math classrooms and compared test results to each other. The results showed students learned much better with a tutor who guides them instead of giving the answers, but students without a special AI tutor performed the same on standardized tests than ones with the specialized tutor. We will make sure that our AI tutor does not give answers away as that seems to make students use the AI as a crutch and perform worse overall.
 
 Rosie Xu:
 - 
