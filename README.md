@@ -17,7 +17,7 @@
 
 *Making learning addictive in the best possible way*
 
-[![License](https://img.shields.io/badge/license-Apache_2.0-red?style=for-the-badge)](LICENSE) 
+[![License](https://img.shields.io/badge/license-Apache_2.0-red?style=for-the-badge)](#) 
 [![Made with Love](https://img.shields.io/badge/Made%20with-💙_for%20students-ff69b4?style=for-the-badge)](#)
 [![Neo4j](https://img.shields.io/badge/Neo4j-4479A1?logo=neo4j&logoColor=white&style=for-the-badge)](#)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)](#)
@@ -119,40 +119,54 @@ This is our proposed muti-agent workflow
 
 ## 🤝 Contributions
 
-Qiran Hu completed the following tasks
+**Qiran Hu**
 
-    - 4 research papers and reflections
-    - The Github README page
-    - Open Issues for milestones; assign owners; use Projects/Boards 
+Completed the following tasks
+
+- 4 research papers and reflections
+- Github README page
+- Open Issues for milestones; assign owners; use Projects/Boards 
+
+Upcoming tasks
 
 - Developing the new architecture for the AI tutor
-
 - Designing the muti-agent workflow and developing graph-based structure for better retrieval system
-
 - Maintaining the Github page and fixing minor issues
 
-Tony Yu completed the following tasks
+**Tony Yu**
 
-    - 2 research papers and reflections
-    - Your proposed approach and why it will improve on prior art
-    - Initial concept and value proposition
+Completed the following tasks
+
+- 2 research papers and reflections
+- Your proposed approach and why it will improve on prior art
+- Initial concept and value proposition
+
+Upcoming tasks
 
 - Creating a new memory framework for the AI tutor
 
-Ryan Pearlman completed the following tasks
+**Ryan Pearlman**
 
-    - 2 research papers and reflections
-    - Problem statement and why it matters
-    - Target users and core tasks
-    - Initial risks & mitigation (privacy, bias, safety, reliability)
+Completed the following tasks
+
+- 2 research papers and reflections
+- Problem statement and why it matters
+- Target users and core tasks
+- Initial risks & mitigation (privacy, bias, safety, reliability)
+
+Upcoming tasks
 
 - Enhancing the design and workflow of app in coming checkpoints
 
-Rosie Xu completed the following tasks
+**Rosie Xu**
 
-    - 2 research papers and reflections
-    - Competitive landscape: existing systems/tools and their shortcomings
-    - Plan for Checkpoint 2 validation via prompting (see CP2)
+Completed the following tasks
+
+- 2 research papers and reflections
+- Competitive landscape: existing systems/tools and their shortcomings
+- Plan for Checkpoint 2 validation via prompting (see CP2)
+
+Upcoming tasks
 
 - Analyzing different existing tools and their limitations
 
@@ -160,7 +174,7 @@ Rosie Xu completed the following tasks
 
 ## 📝 License
 
-Distributed under the **Apache 2.0** License. See [`LICENSE`](LICENSE) for more information.
+Distributed under the **Apache 2.0** License. 
 
 <div align="right">
 
