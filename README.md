@@ -116,6 +116,10 @@ This enhanced muti-agent workflow provides several advantages over simpler tutor
 
 ### Proposed ME-GraphRAG architecture
 
+**M**emory
+**E**nhanced
+GraphRAG
+
 
 
 
