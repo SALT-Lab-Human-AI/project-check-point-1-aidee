@@ -97,15 +97,13 @@ Tony Yu:
 - 
 - 
 
-Ryan Pearlman: 2 Research papers and reflections, problem & importance and initial risks & mitigation sections of proposal. 
-- 
-- 
+Ryan Pearlman: 2 Research papers and reflections, 
+- Completed 2 research papers and reflections, problem & importance and initial risks & mitigation sections of proposal.
+- Will work on design and workflow of app in coming checkpoints.
 
 Rosie Xu:
 - 
 - 
-
-Qiran Hu:
 
 ---
 
