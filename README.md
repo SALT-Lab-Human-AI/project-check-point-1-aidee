@@ -87,7 +87,7 @@ The platform addresses critical limitations identified in current AI tutoring sy
 ## 🤝 Contributions
 
 Qiran Hu will be working on developing the new architecture of the AI tutor
-- Designing the muti-agent workflow and developing graph-based structure
+- Designing the muti-agent workflow and developing graph-based structure for better retrieval system
 - Maintaining the Github page and fixing minor issues
 
 Tony Yu will be working on 
