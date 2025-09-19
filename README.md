@@ -120,7 +120,7 @@ The platform addresses critical limitations identified in current AI tutoring sy
 
 This is our proposed muti-agent workflow 
 
-<img width = "750px" alt = "Proposed Architecture" src = "./additional items/workflow.png">
+<img width = "850px" alt = "Proposed Architecture" src = "./additional items/workflow.png">
 
 ---
 
