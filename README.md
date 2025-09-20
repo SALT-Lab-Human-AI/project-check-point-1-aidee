@@ -226,12 +226,16 @@ Upcoming tasks
 
 We've developed a sophisticated AI Assistant UI with a modern chat interface, built with Next.js and React.
 
+### 🌐 Live Demo
+**Visit the live application:** [https://[your-username].github.io/project-check-point-1-aidee](https://[your-username].github.io/project-check-point-1-aidee)
+
+*Replace `[your-username]` with your GitHub username after deployment*
+
 ### Features
-- 💬 **Full Chat Interface** - Complete messaging system with conversation management
+- 💬 **Minimalistic Chat Interface** - Clean, focused messaging system
 - 🎨 **Modern UI Components** - Built with Radix UI and shadcn/ui components
 - 🌓 **Dark Mode Support** - Seamless theme switching between light and dark modes
-- 📁 **Conversation Organization** - Folders, templates, and pinned conversations
-- 🔍 **Advanced Search** - Search through conversations and messages
+- 💾 **Conversation History** - Manage multiple chat sessions
 - ⚡ **Real-time Updates** - Responsive UI with thinking indicators
 - 📱 **Fully Responsive** - Optimized for desktop and mobile devices
 
@@ -280,6 +284,33 @@ frontend/
 ├── hooks/                 # Custom React hooks
 ├── styles/                # Global styles
 └── public/                # Static assets
+```
+
+### 🚀 GitHub Pages Deployment
+
+The frontend is configured for automatic deployment to GitHub Pages.
+
+#### Setup Instructions:
+1. **Enable GitHub Pages in your repository:**
+   - Go to Settings → Pages
+   - Source: GitHub Actions
+
+2. **The deployment will trigger automatically when you:**
+   - Push to the `main` branch
+   - Or manually trigger the workflow from Actions tab
+
+3. **Access your deployed site at:**
+   ```
+   https://[your-username].github.io/project-check-point-1-aidee
+   ```
+
+#### Manual Deployment:
+```bash
+# Build the static site
+cd frontend
+NODE_ENV=production npm run build
+
+# The static files will be in frontend/out/
 ```
 
 For more details, see the [frontend README](./frontend/README.md).
