@@ -32,8 +32,9 @@
 3. [Competitive Landscape and AI Limitations](#-competitive-landscape-and-ai-limitations)
 4. [Literature Review](#-literature-review)
 5. [Initial Concept and Value Proposition](#-initial-concept-and-value-proposition)  
-6. [Contributions](#-contributions)  
-7. [License](#-license)  
+6. [Frontend Application](#-frontend-application)
+7. [Contributions](#-contributions)  
+8. [License](#-license)  
 
 ---
 
@@ -218,6 +219,70 @@ Completed the following tasks
 Upcoming tasks
 
 - Analyzing different existing tools and their limitations
+
+---
+
+## 🖥️ Frontend Application
+
+We've developed a sophisticated AI Assistant UI with a modern chat interface, built with Next.js and React.
+
+### Features
+- 💬 **Full Chat Interface** - Complete messaging system with conversation management
+- 🎨 **Modern UI Components** - Built with Radix UI and shadcn/ui components
+- 🌓 **Dark Mode Support** - Seamless theme switching between light and dark modes
+- 📁 **Conversation Organization** - Folders, templates, and pinned conversations
+- 🔍 **Advanced Search** - Search through conversations and messages
+- ⚡ **Real-time Updates** - Responsive UI with thinking indicators
+- 📱 **Fully Responsive** - Optimized for desktop and mobile devices
+
+### Quick Start
+
+1. Navigate to the frontend directory:
+```bash
+cd frontend
+```
+
+2. Install dependencies (use legacy peer deps for React 19 compatibility):
+```bash
+npm install --legacy-peer-deps
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser to `http://localhost:3000`
+
+### Tech Stack
+- **Next.js 15.2.4** - React framework with App Router
+- **React 19** - Latest React version
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Utility-first CSS framework
+- **Radix UI** - Unstyled, accessible UI components
+- **shadcn/ui** - Beautifully designed component library
+- **Lucide Icons** - Beautiful & consistent icons
+
+### Troubleshooting
+
+If you encounter dependency conflicts during installation:
+- Use `npm install --legacy-peer-deps` to resolve React 19 compatibility issues
+- Some packages may not officially support React 19 yet, but work fine in practice
+
+### Project Structure
+```
+frontend/
+├── app/                    # Next.js app directory
+├── components/             # React components
+│   ├── ui/                # Reusable UI components (shadcn/ui)
+│   └── ...                # Feature components
+├── lib/                   # Utility functions
+├── hooks/                 # Custom React hooks
+├── styles/                # Global styles
+└── public/                # Static assets
+```
+
+For more details, see the [frontend README](./frontend/README.md).
 
 ---
 
