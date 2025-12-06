@@ -10,21 +10,27 @@ interface Logo {
   url: string
 }
 
-// TwoByTwo Learning Centers
+// Partnered Institutions
 const logos: Logo[] = [
   {
     id: 1,
     name: "TwoByTwo Learning Centers",
     image: "https://us1-photo.nextdoor.com/business_logo/65/6a/656a9d2cd332eb8385695d1ea0c61fcd.jpeg",
     url: "https://www.twobytwolearningcenters.com"
+  },
+  {
+    id: 2,
+    name: "SALT Lab - Social Computing Systems Lab UIUC",
+    image: "/logos/salt-lab.png",
+    url: "https://socialcomputing.web.illinois.edu/index.html"
   }
 ]
 
 export function LogoCarousel() {
   // Create enough duplicates for seamless scrolling
-  const logoCount = 10 // Number of logos to display
-  const singleSet = Array(logoCount).fill(logos[0]).map((logo, i) => ({
-    ...logo,
+  const logoCount = 10 // Number of logo slots to display
+  const singleSet = Array(logoCount).fill(null).map((_, i) => ({
+    ...logos[i % logos.length],
     uniqueId: i
   }))
 
