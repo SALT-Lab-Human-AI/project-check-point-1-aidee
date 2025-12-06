@@ -72,11 +72,11 @@ export function LogoCarousel() {
                 rel="noopener noreferrer"
                 className="flex-shrink-0 group cursor-pointer relative"
               >
-                <div className="w-24 h-24 flex items-center justify-center bg-white/70 backdrop-blur-sm rounded-xl border border-gray-200/50 shadow-sm hover:shadow-lg transition-all duration-500 hover:scale-105 hover:bg-white">
+                <div className="w-40 h-40 flex items-center justify-center bg-white/70 backdrop-blur-sm rounded-xl border border-gray-200/50 shadow-sm hover:shadow-lg transition-all duration-500 hover:scale-105 hover:bg-white p-3">
                   <img
                     src={logo.image}
                     alt={logo.name}
-                    className="w-14 h-14 object-contain transition-all duration-500"
+                    className="w-full h-full object-contain transition-all duration-500"
                   />
                 </div>
                 {/* Elegant tooltip on hover */}
@@ -99,11 +99,11 @@ export function LogoCarousel() {
                 rel="noopener noreferrer"
                 className="flex-shrink-0 group cursor-pointer relative"
               >
-                <div className="w-24 h-24 flex items-center justify-center bg-white/70 backdrop-blur-sm rounded-xl border border-gray-200/50 shadow-sm hover:shadow-lg transition-all duration-500 hover:scale-105 hover:bg-white">
+                <div className="w-40 h-40 flex items-center justify-center bg-white/70 backdrop-blur-sm rounded-xl border border-gray-200/50 shadow-sm hover:shadow-lg transition-all duration-500 hover:scale-105 hover:bg-white p-3">
                   <img
                     src={logo.image}
                     alt={logo.name}
-                    className="w-14 h-14 object-contain transition-all duration-500"
+                    className="w-full h-full object-contain transition-all duration-500"
                   />
                 </div>
                 {/* Elegant tooltip on hover */}
