@@ -469,11 +469,11 @@ To clarify the comparison context for this exploratory study, the following imag
 
 ![Figure 16-A: Paper-Based Learning Materials](Figures/Figure16A.png)
 
-*Figure 16-A. Completed Paper-Based Quiz.* A sample of participant work showing a completed math quiz with answers marked (232, 67, 96) and scratch work demonstrating the calculation process. The quiz includes addition (145 + 87), subtraction (156 - 89), and multiplication (12 × 8) problems typical of the materials used during traditional tutoring sessions.
+*Figure 16-A. Traditional Learning Materials.* Paper worksheets, workbooks, and traditional learning materials used during baseline sessions. This image displays the type of math and vocabulary worksheets participants completed under traditional instruction at Two By Two Learning Center.
 
 ![Figure 16-B: Traditional Tutoring Setting](Figures/Figure16B.png)
 
-*Figure 16-B. Paper-Based Math Quiz Questions.* The clean quiz sheet showing Set 1 with three multiple-choice math problems: Question 1 (145 + 87), Question 2 (156 - 89), and Question 3 (12 × 8). Each question provides four answer options in a structured format representative of the paper-based assessment materials used during traditional instruction at Two By Two Learning Center.
+*Figure 16-B. Traditional Tutoring Environment.* The group instruction setting at Two By Two Learning Center where participants completed paper-based activities. This image illustrates the physical learning environment, including the tutor-to-student ratio and shared attention dynamics characteristic of the baseline condition.
 
 ### 5.5 Instrument Development
 
