@@ -41,6 +41,8 @@
 
 [Live Demo Video](docs/report/demo.mp4)
 
+![Live Demo](docs/report/demo.gif)
+
 ---
 
 ## 📑 Table of Contents
