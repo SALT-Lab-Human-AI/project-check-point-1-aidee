@@ -39,6 +39,8 @@
 
 [Checkout Our Final Report](docs/report/FINAL_REPORT.md)
 
+[Live Demo Video](docs/report/demo.mp4)
+
 ---
 
 ## 📑 Table of Contents
